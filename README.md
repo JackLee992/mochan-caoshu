@@ -6,6 +6,8 @@
 当前使用 **Netlify 免费静态托管**；不购买域名、不绑定银行卡、不开通付费套餐。
 **已成功发布并认领为公开网站：[墨禅 · 草书经卷](https://mochan-caoshu.netlify.app)。账号为 Free，未保存银行卡；无需 Netlify 登录或临时密码即可阅读。**
 
+新版采用疏朗书卷设计：浅纸色、开放书目与朱色细线，章节选择位于正文上方；手机四书一行切换。大字与48像素触控区域保留。设计说明见 [疏朗书卷设计](docs/design/AIRY-READER.md)。
+
 当前已收录《心经》、32分《金刚经》、81章《道德经》和20篇《论语》全文，支持章节选择和前后翻页。经典正文不显示标点，按语句与原段落分行，直排、横排和米字格使用同样的分行。默认字号48，可调24–200，提供64/96/160三个大字快捷按钮；主要触控控件至少48像素高。于右任字体已换成原包全量 WOFF2，旧精简版已覆盖。字体下载时显示加载提示并隐藏正文，成功后再显示；失败可重新载入。
 
 已验证全部九项资源及章节、大字、字库加载交互。用户此前确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开；该手机反馈来自首次部署。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
@@ -60,7 +62,9 @@ py -3 -m http.server 8080 --bind 127.0.0.1 --directory site
 | `docs/NETLIFY.md` | 当前 Netlify 网站、更新步骤、免费边界和验收要求 |
 | `docs/CLASSICS.md` | 经典固定版本、正文导入方法、全量字体与占位字形处理 |
 | `scripts/build-yu-font.py` | 将用户原字体包全量转换为 WOFF2，验证轮廓和横纵排度量并生成有效字形范围 |
-| `docs/evidence/netlify-unpunctuated-2026-09-30.json` | 当前无标点版本公网及分行验收记录 |
+| `docs/design/` | 本次桌面/手机设计稿、设计取舍与视觉核对记录 |
+| `docs/evidence/netlify-airy-design-2026-09-30.json` | 当前疏朗书卷设计的发布、资源和响应式验收记录 |
+| `docs/evidence/netlify-unpunctuated-2026-09-30.json` | 上一版无标点分行验收记录 |
 | `docs/evidence/netlify-classics-full-font-2026-09-30.json` | 字体与经典更新的历史验收记录 |
 | `docs/evidence/yu-font-classics-2026-09-30.json` | 全量字体转换、轮廓和原字库缺字核查 |
 | `docs/evidence/netlify-2026-09-30.json` | 首次部署的历史验收记录 |

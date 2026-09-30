@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-09-30T13:49:58.286822+00:00",
+  "url": "https://mochan-caoshu.netlify.app",
+  "deploymentId": "6abd135afaf1b7ea160d892d",
+  "deploymentMethod": "Existing Netlify project, manual ZIP upload; 2 changed files, 9 total",
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 6772,
+      "sha256": "efde304910d97f6b7c15e4e2405d03c4cbd22ece515a85dbd6d271182b632060",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 83108,
+      "sha256": "5425b8cd2e4eadd715d863fa9f03ea07131ccbd53697b53ce48b56538ccab457",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 19312,
+      "sha256": "5eae43fca7540602cf425860442c7ed18d2636308fedb66e20e53f0f0f0d7ab3",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "content.json",
+      "status": 200,
+      "bytes": 513055,
+      "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "status": 200,
+      "bytes": 303,
+      "sha256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "assets/YuYouren.woff2",
+      "status": 200,
+      "bytes": 1812748,
+      "sha256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "assets/LongCang.woff2",
+      "status": 200,
+      "bytes": 206236,
+      "sha256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "assets/MaShanZheng.woff2",
+      "status": 200,
+      "bytes": 231680,
+      "sha256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "matchesSnapshot": true
+    },
+    {
+      "path": "assets/yu-couplet.jpg",
+      "status": 200,
+      "bytes": 602201,
+      "sha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "matchesSnapshot": true
+    }
+  ],
+  "totalSnapshotBytes": 3475415,
+  "zipBytes": 2891204,
+  "browserChecks": {
+    "browser": "Codex IAB",
+    "desktop": {
+      "width": 1448,
+      "height": 1086,
+      "scope": "Local preview native concept comparison"
+    },
+    "responsiveWidths": [
+      320,
+      390,
+      700,
+      740,
+      768,
+      1024,
+      1280
+    ],
+    "documentOverflow": false,
+    "mainControlMinimumHeight": 49,
+    "chapterOptions": {
+      "diamond": 32,
+      "daodejing": 81,
+      "lunyu": 20
+    },
+    "chapterBoundaryAndMemory": true,
+    "mobile200pxBothLayoutsWithGrid": true,
+    "fontSampleSelection": true,
+    "artDialogZoom200": true,
+    "consoleErrors": [],
+    "productionDesktop": {
+      "width": 1280,
+      "height": 720,
+      "fontReady": true,
+      "paperColor": "rgb(255, 254, 250)",
+      "toolbarBackground": "transparent",
+      "chapterInToolbar": true
+    },
+    "productionMobile": {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390
+    }
+  },
+  "scope": "HTML/CSS presentation changed. app.js, content.json, fonts and original art unchanged. Prior full-font loading/failure and 134-section punctuation audit still apply.",
+  "screenshots": [
+    "images/airy-design-live.jpg",
+    "images/airy-design-mobile-live.jpg"
+  ]
+}

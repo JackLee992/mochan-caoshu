@@ -8,12 +8,14 @@
 已将校验过的 `mochan-caoshu-static.zip` 上传到 Netlify Drop。ZIP 顶层为 `index.html`，九个文件与 `site/` 内容完全一致。
 初始临时名称为 `fanciful-pegasus-b45762`。账号持有人已完成登录和认领，已将同一个项目更名为 `mochan-caoshu`、设为 Public。
 正式网站：<https://mochan-caoshu.netlify.app>；控制台：<https://app.netlify.com/projects/mochan-caoshu/overview>。
-当前生产部署 ID：`6abd0d81385be585d6bcb77c`；来自 Drop，控制台显示 Currently published，本次2个变更文件、部署包含完整9个文件。首次认领部署 `6abcfde2fabe2f2caa80b714` 已作为历史版本保留在平台。
+当前生产部署 ID：`6abd135afaf1b7ea160d892d`；来自 Drop，控制台显示 Currently published，本次2个变更文件、部署包含完整9个文件。首次认领部署 `6abcfde2fabe2f2caa80b714` 已作为历史版本保留在平台。
 账号账单页面确认 Free、无银行卡资料；不受匿名 Drop 一小时认领期限限制。
+
+当前版本采用浅纸色、开放书目、朱色细线与轻工具栏；手机四书一行、章节操作紧邻正文。设计说明见 [疏朗书卷设计](design/AIRY-READER.md)。
 
 当前版本已加入81章道德经、20篇论语、24–200字号、适合中老年使用的大字按钮、全量于右任字库和明确的字体加载/失败重试提示。正文仅在选中字库就绪后显示，去掉标点并按语句和原段落分行；米字格同样分行。经典与字形说明见 [CLASSICS.md](CLASSICS.md)。
 
-当前验收见 [无标点版本证据](evidence/netlify-unpunctuated-2026-09-30.json)；[字体与经典证据](evidence/netlify-classics-full-font-2026-09-30.json) 为上一版记录；[首次部署证据](evidence/netlify-2026-09-30.json) 为历史记录。
+当前验收见 [疏朗设计版本证据](evidence/netlify-airy-design-2026-09-30.json)；[无标点版本证据](evidence/netlify-unpunctuated-2026-09-30.json) 为此前记录；[字体与经典证据](evidence/netlify-classics-full-font-2026-09-30.json) 为上一版记录；[首次部署证据](evidence/netlify-2026-09-30.json) 为历史记录。
 本次九个文件哈希均与本地完全一致。首次验收曾观察到首页加入326字节纯托管说明HTML注释；它不是可执行脚本，验收仍需区分原始哈希和去除该唯一注释后的内容一致性。
 用户在首次发布后已确认手机关闭 VPN，Wi-Fi 和移动网络均正常打开。本次全量字体与经典更新尚无单独手机反馈。该用户实测覆盖当时的两种网络，不能扩展为大陆所有地区及运营商保障；本机 HTTP 测试与用户反馈分别记录。
 

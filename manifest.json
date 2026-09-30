@@ -1,13 +1,13 @@
 {
   "source": "https://mochan-caoshu.s419505080.chatgpt.site",
   "exportedAt": "2026-09-30T11:18:32.712Z",
-  "note": "Current edited static snapshot: four complete classics displayed without punctuation, clause/paragraph line breaks in reading and grid modes, large-text controls, full Yu Youren font and explicit loading/retry states. Source texts retain their punctuation for provenance.",
+  "note": "Airy reading-room redesign: open book rail, light paper and controls, chapter navigation above the canvas, mobile book tabs and 48px controls. Four complete classics, unpunctuated lines, 24–200px reading, full font and loading/retry behavior preserved.",
   "files": [
     {
       "path": "index.html",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/",
-      "bytes": 6507,
-      "sha256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
+      "bytes": 6772,
+      "sha256": "efde304910d97f6b7c15e4e2405d03c4cbd22ece515a85dbd6d271182b632060",
       "sourceSha256": "5a0ac6bc5150b816e4aca65af5d01183ca6b2418632e3438afcae67fce91d39c",
       "removedHostingScripts": 1,
       "locallyEdited": true
@@ -15,8 +15,8 @@
     {
       "path": "style.css",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/style.css",
-      "bytes": 71092,
-      "sha256": "3583e6d3a21a56df9c69a76e0f6c3936f00b7cf93b23382b089628690553480e",
+      "bytes": 83108,
+      "sha256": "5425b8cd2e4eadd715d863fa9f03ea07131ccbd53697b53ce48b56538ccab457",
       "sourceSha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -81,5 +81,5 @@
       "removedHostingScripts": 0
     }
   ],
-  "updatedAt": "2026-09-30T13:23:40.660517+00:00"
+  "updatedAt": "2026-09-30T13:48:29.228279+00:00"
 }

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#233f36">
+  <meta name="theme-color" content="#f8f7f2">
   <title>墨禪 · 草書經卷</title>
   <meta name="description" content="靜觀名家草書，臨賞心經、金剛經、道德經與論語。墨禪，為草書愛好者而設的經典閱讀與字帖欣賞空間。">
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
@@ -22,25 +22,32 @@
   </header>
   <main id="main">
     <section id="reader-view" class="view">
-      <div class="section-heading"><div><span class="eyebrow">經卷臨賞</span><h1>讀經，亦觀筆墨。</h1></div><p>展卷慢讀，於字裡行間安頓身心。</p></div>
       <div class="reading-layout">
         <aside class="library-panel" aria-label="經典選擇">
-          <div class="panel-label">選一部經典</div>
+          <div class="section-heading reader-intro"><h1>讀經，亦觀筆墨。</h1><p>展卷慢讀，於字裡行間安頓身心。</p></div>
+          <div class="book-list" role="group" aria-label="選一部經典">
           <button class="book-card selected" data-book="heart" aria-pressed="true"><span class="book-number">卷 一</span><strong>心經</strong><span>般若波羅蜜多心經</span><small>唐 · 玄奘譯</small></button>
           <button class="book-card" data-book="diamond" aria-pressed="false"><span class="book-number">卷 二</span><strong>金剛經</strong><span>金剛般若波羅蜜經</span><small>姚秦 · 鳩摩羅什譯</small></button>
           <button class="book-card" data-book="daodejing" aria-pressed="false"><span class="book-number">卷 三</span><strong>道德經</strong><span>八十一章 · 王弼本</span><small>老子</small></button>
           <button class="book-card" data-book="lunyu" aria-pressed="false"><span class="book-number">卷 四</span><strong>論語</strong><span>二十篇 · 儒家經典</span><small>孔子與弟子言行</small></button>
-          <div id="chapter-controls" hidden><label for="chapter-select" class="panel-label" id="chapter-label">章節選擇</label><select id="chapter-select"></select><div class="chapter-nav"><button id="prev-chapter">上一章</button><button id="next-chapter">下一章</button></div></div>
+          </div>
           <div class="sidebar-note"><span class="small-seal">靜</span><p>先辨字，再觀勢。<br>讀一卷經，習一份從容。</p></div>
         </aside>
         <div class="reader-column">
           <div class="reader-toolbar">
+            <div class="toolbar-primary">
             <div class="font-control"><label for="font-select">書體</label><select id="font-select"><option value="yu">于右任標準草書</option><option value="longcang">龍藏草書</option><option value="mashan">馬善政毛筆體</option><option value="serif">宋體校讀</option></select></div>
             <div class="size-control"><label for="font-size">字號</label><button class="tool-button" id="size-decrease" aria-label="縮小字號">縮小</button><input id="font-size" type="range" min="24" max="200" step="2" value="48"><output id="size-value" for="font-size" aria-live="polite">48</output><button class="tool-button" id="size-increase" aria-label="放大字號">放大</button></div>
             <div class="size-presets" role="group" aria-label="常用字號"><button class="tool-button" data-size="64" aria-pressed="false">大字</button><button class="tool-button" data-size="96" aria-pressed="false">特大</button><button class="tool-button" data-size="160" aria-pressed="false">臨摹大字</button></div>
+            </div>
+            <div class="toolbar-secondary">
+            <div class="layout-control" role="group" aria-label="排版選項"><span class="control-label">排版</span>
             <button class="tool-button" id="layout-toggle" aria-pressed="true">直排</button>
             <button class="tool-button" id="grid-toggle" aria-pressed="false">米字格</button>
             <button class="tool-button print-button" id="print-button">列印</button>
+            </div>
+          <div id="chapter-controls" hidden><label for="chapter-select" class="panel-label" id="chapter-label">章節選擇</label><select id="chapter-select"></select><div class="chapter-nav"><button id="prev-chapter">上一章</button><button id="next-chapter">下一章</button></div></div>
+            </div>
           </div>
           <article class="sutra-paper" id="sutra-paper">
             <div class="paper-top"><span id="book-label">般若 · 心經</span><span id="text-count">玄奘譯本</span></div>
