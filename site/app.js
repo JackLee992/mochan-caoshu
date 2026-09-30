@@ -100,6 +100,14 @@ $$('.nav-item').forEach(el=>el.addEventListener('click',()=>setView(el.dataset.v
 $('.brand').addEventListener('click',e=>{e.preventDefault();setView('reader');window.scrollTo({top:0,behavior:'smooth'})});
 $('.footer-brand').addEventListener('click',e=>{e.preventDefault();setView('reader');window.scrollTo({top:0,behavior:'smooth'})});
 $('#reader-gallery').addEventListener('click',()=>{setView('gallery');window.scrollTo({top:0,behavior:'smooth'})});
+function unpunctuatedText(paragraphs) {
+ return paragraphs.map(paragraph=>paragraph
+  .replace(/[「」『』“”‘’"'《》〈〉（）()【】〔〕\[\]{}、﹑]/gu,'')
+  .replace(/\p{P}+/gu,'\n')
+  .replace(/[ \t]*\n[ \t]*/g,'\n')
+  .replace(/\n+/g,'\n').trim()
+ ).filter(Boolean).join('\n\n');
+}
 function renderSutra() {
  if(!content || !content[book])return;
  const volume=content[book], info=bookInfo[book];
@@ -125,10 +133,11 @@ function renderSutra() {
  $('#next-chapter').disabled=!divided || chapter===sections.length-1;
  const scripture=$('#scripture');
  scripture.className=`scripture ${vertical?'vertical':'horizontal'} ${fonts[font].class} ${grid?'grid':''}`;
- if(grid){scripture.innerHTML=[...section.plainText].map(ch=>`<span class="glyph">${escapeHTML(ch)}</span>`).join('')}
- else{scripture.textContent=section.paragraphs.join('\n\n')}
+ const readingText=unpunctuatedText(section.paragraphs);
+ if(grid){scripture.innerHTML=readingText.split(/\n+/).map(line=>`<span class="glyph-line">${[...line].filter(ch=>/\p{Script=Han}/u.test(ch)).map(ch=>`<span class="glyph">${escapeHTML(ch)}</span>`).join('')}</span>`).join('')}
+ else{scripture.textContent=readingText}
  $('#reader-note').textContent=font==='yu'?'于右任標準草書全量字庫 · 原字庫未收錄的草書以裝置正體補讀。':font==='serif'?'宋體用於校讀字義與句讀；可切換草書對照。':'字體生成示例 · 少數繁體字以裝置內建字體補讀。';
- $('#reading-hint').textContent=grid?'米字格臨賞 · 隱去標點':vertical?'經典直排，從右向左讀':'經典橫排，從左向右讀';
+ $('#reading-hint').textContent=grid?'米字格臨賞 · 分行閱讀':vertical?'經典直排，從右向左讀':'經典橫排，從左向右讀';
  $('#sutra-source').innerHTML=`${escapeHTML(volume.edition)} · ${external(volume.sourceURL||info.sourceURL,'原文來源')} · 字數不含書名、章目與標點。`;
  prepareReaderFont();
  requestAnimationFrame(()=>{$('.scripture-scroll').scrollLeft=0});
@@ -168,7 +177,7 @@ function openWork(id) {
  $('#art-dialog').showModal();
 }
 function renderFonts() {
- $('#fonts-view').innerHTML=`<div class="section-heading"><div><span class="eyebrow">書體雅集</span><h1>一字一畫，各有筆意。</h1></div><p>選一種書體，回到經卷慢讀。</p></div><div class="font-feature"><span class="font-feature-tag">你提供的字體</span><div class="font-feature-preview"><div class="font-feature-calligraphy font-yu" data-preview-font="yu" hidden>心無罣礙</div></div><div><span class="eyebrow">標準草書</span><h2>于右任標準草書</h2><p>以全量字庫臨賞佛典與國學經典，<br>逐字觀察結體，生僻字以正體補讀。</p><button class="primary-button" data-use-font="yu">以此書體讀經</button></div></div><div class="font-grid">${Object.entries(fonts).filter(([k])=>k!=='yu').map(([key,f])=>`<article class="font-card"><span class="eyebrow">${f.name}</span><p class="font-sample ${f.class}" data-preview-font="${key}"${key==='serif'?'':' hidden'}>${f.sample}</p><p>${f.description}</p><small>${f.note}</small><button data-use-font="${key}">用此書體臨賞</button></article>`).join('')}</div><div class="study-note"><span class="small-seal">辨</span><div><h3>字體與原作，各有所觀。</h3><p>字體展示固定字形，便於臨摹；原作則能呈現落筆、墨色和通篇行氣。于右任標準草書使用你提供字體包的全量字庫；原字庫缺少對應草書的字，以裝置正體補讀。龍藏、馬善政為不同書體。</p></div></div>`;
+ $('#fonts-view').innerHTML=`<div class="section-heading"><div><span class="eyebrow">書體雅集</span><h1>一字一畫，各有筆意。</h1></div><p>選一種書體，回到經卷慢讀。</p></div><div class="font-feature"><span class="font-feature-tag">你提供的字體</span><div class="font-feature-preview"><div class="font-feature-calligraphy font-yu" data-preview-font="yu" hidden>心無罣礙</div></div><div><span class="eyebrow">標準草書</span><h2>于右任標準草書</h2><p>以全量字庫臨賞佛典與國學經典，<br>逐字觀察結體，生僻字以正體補讀。</p><button class="primary-button" data-use-font="yu">以此書體讀經</button></div></div><div class="font-grid">${Object.entries(fonts).filter(([k])=>k!=='yu').map(([key,f])=>`<article class="font-card"><span class="eyebrow">${f.name}</span><p class="font-sample ${f.class}" data-preview-font="${key}"${key==='serif'?'':' hidden'}>${escapeHTML(unpunctuatedText([f.sample]))}</p><p>${f.description}</p><small>${f.note}</small><button data-use-font="${key}">用此書體臨賞</button></article>`).join('')}</div><div class="study-note"><span class="small-seal">辨</span><div><h3>字體與原作，各有所觀。</h3><p>字體展示固定字形，便於臨摹；原作則能呈現落筆、墨色和通篇行氣。于右任標準草書使用你提供字體包的全量字庫；原字庫缺少對應草書的字，以裝置正體補讀。龍藏、馬善政為不同書體。</p></div></div>`;
  $$('[data-use-font]').forEach(el=>el.addEventListener('click',()=>{font=el.dataset.useFont;$('#font-select').value=font;renderSutra();setView('reader');window.scrollTo({top:0,behavior:'smooth'})}));
 }
 function renderSources() {

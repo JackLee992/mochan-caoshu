@@ -1,7 +1,7 @@
 {
   "source": "https://mochan-caoshu.s419505080.chatgpt.site",
   "exportedAt": "2026-09-30T11:18:32.712Z",
-  "note": "Current edited static snapshot: four complete classics, chapter navigation, accessible large-text controls, the full Yu Youren font and explicit loading/retry states without temporary replacement scripture.",
+  "note": "Current edited static snapshot: four complete classics displayed without punctuation, clause/paragraph line breaks in reading and grid modes, large-text controls, full Yu Youren font and explicit loading/retry states. Source texts retain their punctuation for provenance.",
   "files": [
     {
       "path": "index.html",
@@ -15,8 +15,8 @@
     {
       "path": "style.css",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/style.css",
-      "bytes": 70913,
-      "sha256": "599161114366151234fd27eec6561d65325d7775d6ee7648ecd6f3cb8ffd144e",
+      "bytes": 71092,
+      "sha256": "3583e6d3a21a56df9c69a76e0f6c3936f00b7cf93b23382b089628690553480e",
       "sourceSha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -24,8 +24,8 @@
     {
       "path": "app.js",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/app.js",
-      "bytes": 18830,
-      "sha256": "361cd87475cbd60d9c97b16f661461efd118dc7a2dc99b75c2aea781a9fbf5aa",
+      "bytes": 19312,
+      "sha256": "5eae43fca7540602cf425860442c7ed18d2636308fedb66e20e53f0f0f0d7ab3",
       "sourceSha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -81,5 +81,5 @@
       "removedHostingScripts": 0
     }
   ],
-  "updatedAt": "2026-09-30T13:10:03.337665+00:00"
+  "updatedAt": "2026-09-30T13:23:40.660517+00:00"
 }

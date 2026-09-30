@@ -1,0 +1,139 @@
+{
+  "checkedAtUTC": "2026-09-30T13:25:23.309264+00:00",
+  "productionURL": "https://mochan-caoshu.netlify.app",
+  "productionDeployID": "6abd0d81385be585d6bcb77c",
+  "requestCookieHeader": false,
+  "filesChecked": 9,
+  "allHTTP200": true,
+  "allSiteContentEquivalent": true,
+  "netlifyChangedFiles": 2,
+  "netlifyTotalFiles": 9,
+  "files": [
+    {
+      "path": "index.html",
+      "httpStatus": 200,
+      "bytes": 6507,
+      "sha256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
+      "expectedSHA256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "style.css",
+      "httpStatus": 200,
+      "bytes": 71092,
+      "sha256": "3583e6d3a21a56df9c69a76e0f6c3936f00b7cf93b23382b089628690553480e",
+      "expectedSHA256": "3583e6d3a21a56df9c69a76e0f6c3936f00b7cf93b23382b089628690553480e",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "app.js",
+      "httpStatus": 200,
+      "bytes": 19312,
+      "sha256": "5eae43fca7540602cf425860442c7ed18d2636308fedb66e20e53f0f0f0d7ab3",
+      "expectedSHA256": "5eae43fca7540602cf425860442c7ed18d2636308fedb66e20e53f0f0f0d7ab3",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "content.json",
+      "httpStatus": 200,
+      "bytes": 513055,
+      "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "expectedSHA256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/favicon.svg",
+      "httpStatus": 200,
+      "bytes": 303,
+      "sha256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "expectedSHA256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/YuYouren.woff2",
+      "httpStatus": 200,
+      "bytes": 1812748,
+      "sha256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+      "expectedSHA256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/LongCang.woff2",
+      "httpStatus": 200,
+      "bytes": 206236,
+      "sha256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "expectedSHA256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/MaShanZheng.woff2",
+      "httpStatus": 200,
+      "bytes": 231680,
+      "sha256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "expectedSHA256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/yu-couplet.jpg",
+      "httpStatus": 200,
+      "bytes": 602201,
+      "sha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "expectedSHA256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    }
+  ],
+  "textChecks": [
+    {
+      "book": "heart",
+      "sections": 1,
+      "lines": 51,
+      "characters": 260,
+      "hanOrderUnchanged": true,
+      "punctuationRemaining": false
+    },
+    {
+      "book": "diamond",
+      "sections": 32,
+      "lines": 987,
+      "characters": 5179,
+      "hanOrderUnchanged": true,
+      "punctuationRemaining": false
+    },
+    {
+      "book": "daodejing",
+      "sections": 81,
+      "lines": 1140,
+      "characters": 5297,
+      "hanOrderUnchanged": true,
+      "punctuationRemaining": false
+    },
+    {
+      "book": "lunyu",
+      "sections": 20,
+      "lines": 3954,
+      "characters": 15929,
+      "hanOrderUnchanged": true,
+      "punctuationRemaining": false
+    }
+  ],
+  "browserVerification": {
+    "verticalAndHorizontalLineBreaks": true,
+    "gridGroupsPreserved": true,
+    "punctuationAbsentFromScripture": true,
+    "mobileViewportAndDocumentWidth": 390,
+    "maximumFontSizeObserved": 200,
+    "consoleWarningsOrErrors": []
+  },
+  "screenshots": {
+    "production": "images/unpunctuated-live.jpg"
+  }
+}
