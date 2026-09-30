@@ -1,0 +1,15 @@
+# A static site has no paid compute plan and needs no database or disk.
+# Only site/ is published; source, notes, ZIPs, and credentials are not served.
+services:
+  - type: web
+    name: mochan-caoshu
+    runtime: static
+    branch: main
+    buildCommand: node scripts/verify-snapshot.mjs
+    staticPublishPath: ./site
+    autoDeployTrigger: commit
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: SKIP_INSTALL_DEPS
+        value: "true"
