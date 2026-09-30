@@ -1,6 +1,16 @@
 # Render 免费部署
 
-当前目标平台为 Render。原站目前没有后端，因此部署为 Static Site；以后增加 Node.js、Python 或 Docker 后端时，可以在同一平台新建 Web Service，不必现在增加服务器。
+Render 是此前选择的目标平台；因账号要求银行卡验证，用户已改试 Netlify，当前操作见 [NETLIFY.md](NETLIFY.md)。以下保留 Render 接续参考。原站没有后端，若恢复该路线应部署为 Static Site。
+
+## 当前账号实测状态（2026-09-30）
+
+网站快照和部署参数均已校验通过，Render 登录已完成，但当前账号在两条创建路径均要求银行卡身份验证：
+
+- 一键 Blueprint：`Payment Information Required`，已取消。
+- 手动 Static Site：提交后弹出 `Add Card` / `Add credit card to verify your identity.`，同时显示 `need_payment_info`，已取消。
+
+没有填入付款资料或提交银行卡授权；Overview 显示 `My project — No active services`。没有已上线的 Render 地址。
+保留“不绑定银行卡”的用户约定，不能继续通过该验证关卡；账号限制未解决时，不要将一键按钮或正确的配置误报为部署成功。
 
 ## 手机或电脑一键部署
 
