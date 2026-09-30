@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#233f36">
+  <title>墨禪 · 草書經卷</title>
+  <meta name="description" content="靜觀名家草書，臨賞心經與金剛經。墨禪，為草書愛好者而設的經卷閱讀與字帖欣賞空間。">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至經卷</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="墨禪首頁"><span class="seal">墨</span><span class="brand-name">墨禪<span class="brand-sub">草書經卷</span></span></a>
+    <nav class="main-nav" aria-label="主選單">
+      <button class="nav-item active" data-view="reader" aria-current="page">經卷臨賞</button>
+      <button class="nav-item" data-view="gallery">名家字帖</button>
+      <button class="nav-item" data-view="fonts">書體雅集</button>
+    </nav>
+    <span class="header-note">一筆一念 · 澄心觀照</span>
+  </header>
+  <main id="main">
+    <section id="reader-view" class="view">
+      <div class="section-heading"><div><span class="eyebrow">經卷臨賞</span><h1>讀經，亦觀筆墨。</h1></div><p>展卷慢讀，於字裡行間安頓身心。</p></div>
+      <div class="reading-layout">
+        <aside class="library-panel" aria-label="經卷選擇">
+          <div class="panel-label">選一卷經</div>
+          <button class="book-card selected" data-book="heart" aria-pressed="true"><span class="book-number">卷 一</span><strong>心經</strong><span>般若波羅蜜多心經</span><small>唐 · 玄奘譯</small></button>
+          <button class="book-card" data-book="diamond" aria-pressed="false"><span class="book-number">卷 二</span><strong>金剛經</strong><span>金剛般若波羅蜜經</span><small>姚秦 · 鳩摩羅什譯</small></button>
+          <div id="chapter-controls" hidden><label for="chapter-select" class="panel-label">分品閱讀</label><select id="chapter-select"></select><div class="chapter-nav"><button id="prev-chapter" aria-label="上一品">上一品</button><button id="next-chapter" aria-label="下一品">下一品</button></div></div>
+          <div class="sidebar-note"><span class="small-seal">靜</span><p>先辨字，再觀勢。<br>讀一卷經，習一份從容。</p></div>
+        </aside>
+        <div class="reader-column">
+          <div class="reader-toolbar">
+            <div class="font-control"><label for="font-select">書體</label><select id="font-select"><option value="yu">于右任標準草書</option><option value="longcang">龍藏草書</option><option value="mashan">馬善政毛筆體</option><option value="serif">宋體校讀</option></select></div>
+            <div class="size-control"><label for="font-size">字大</label><input id="font-size" type="range" min="24" max="54" value="34"><output id="size-value" for="font-size">34</output></div>
+            <button class="tool-button" id="layout-toggle" aria-pressed="true">直排</button>
+            <button class="tool-button" id="grid-toggle" aria-pressed="false">米字格</button>
+            <button class="tool-button print-button" id="print-button">列印</button>
+          </div>
+          <article class="sutra-paper" id="sutra-paper">
+            <div class="paper-top"><span id="book-label">般若 · 心經</span><span id="text-count">玄奘譯本</span></div>
+            <div class="sutra-title-row"><h2 id="sutra-title">般若波羅蜜多心經</h2><span class="title-seal">般若</span></div>
+            <p class="sutra-attribution" id="sutra-attribution">唐三藏法師玄奘譯</p>
+            <div class="scripture-scroll" tabindex="0" role="region" aria-label="經文，可左右捲動閱讀"><div class="scripture vertical font-longcang" id="scripture">觀自在菩薩，行深般若波羅蜜多時，照見五蘊皆空，度一切苦厄。舍利子！色不異空，空不異色，色即是空，空即是色；受想行識，亦復如是。舍利子！是諸法空相，不生不滅，不垢不淨，不增不減。是故空中無色，無受想行識，無眼耳鼻舌身意，無色聲香味觸法，無眼界，乃至無意識界。無無明，亦無無明盡，乃至無老死，亦無老死盡。無苦集滅道，無智亦無得。以無所得故，菩提薩埵，依般若波羅蜜多故，心無罣礙；無罣礙故，無有恐怖，遠離顛倒夢想，究竟涅槃。三世諸佛，依般若波羅蜜多故，得阿耨多羅三藐三菩提。故知般若波羅蜜多，是大神咒，是大明咒，是無上咒，是無等等咒，能除一切苦，真實不虛。故說般若波羅蜜多咒，即說咒曰：揭諦揭諦，波羅揭諦，波羅僧揭諦，菩提薩婆訶。</div></div>
+            <div class="paper-bottom"><span id="reading-hint">經卷直排，從右向左讀</span><span>墨禪 · 臨賞</span></div>
+          </article>
+          <div class="reader-caption"><span class="caption-line"></span><p id="reader-note">經文與書體可自由切換；名家原作見「名家字帖」。</p></div>
+          <p class="source-note" id="sutra-source"></p>
+          <button class="original-link" id="reader-gallery"><span>觀原作</span><strong>于右任 · 草書館藏</strong><small>細看結字與行氣</small></button>
+        </div>
+      </div>
+    </section>
+    <section id="gallery-view" class="view" hidden></section>
+    <section id="fonts-view" class="view" hidden></section>
+  </main>
+  <footer><a class="footer-brand" href="#">墨禪</a><span>草書經卷 · 澄心臨賞</span><button id="sources-button">內容與來源</button></footer>
+  <dialog id="art-dialog" class="art-dialog"><button class="dialog-close" aria-label="關閉字帖">✕</button><div id="art-detail"></div></dialog>
+  <dialog id="sources-dialog" class="sources-dialog"><button class="dialog-close" aria-label="關閉來源說明">✕</button><div id="sources-detail"></div></dialog>
+  <script src="/app.js"></script>
+</body>
+</html>

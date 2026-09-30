@@ -1,0 +1,79 @@
+{
+  "source": "https://mochan-caoshu.s419505080.chatgpt.site",
+  "exportedAt": "2026-09-30T11:18:32.712Z",
+  "note": "Public static deployment snapshot; not a Git history export. Only hosting-injected Cloudflare challenge scripts were removed.",
+  "files": [
+    {
+      "path": "index.html",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/",
+      "bytes": 6145,
+      "sha256": "f8143ed9fa8cac0f0c9c37dda2242ac30ceda494dc9dc1f82165807563179c97",
+      "sourceSha256": "5a0ac6bc5150b816e4aca65af5d01183ca6b2418632e3438afcae67fce91d39c",
+      "removedHostingScripts": 1
+    },
+    {
+      "path": "style.css",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/style.css",
+      "bytes": 17154,
+      "sha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
+      "sourceSha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "app.js",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/app.js",
+      "bytes": 13416,
+      "sha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
+      "sourceSha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "content.json",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/content.json",
+      "bytes": 66109,
+      "sha256": "f36bb176d447d4ff60a741dd14bc95e2e0e5e796641fb826b76b036d179a6b21",
+      "sourceSha256": "f36bb176d447d4ff60a741dd14bc95e2e0e5e796641fb826b76b036d179a6b21",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "assets/favicon.svg",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/favicon.svg",
+      "bytes": 303,
+      "sha256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "sourceSha256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "assets/YuYouren.woff2",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/YuYouren.woff2",
+      "bytes": 130836,
+      "sha256": "d63c1ed1a9fe5aa80742dfc51c751401741065a38ec02e8911eb5ad2ff4cb414",
+      "sourceSha256": "d63c1ed1a9fe5aa80742dfc51c751401741065a38ec02e8911eb5ad2ff4cb414",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "assets/LongCang.woff2",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/LongCang.woff2",
+      "bytes": 206236,
+      "sha256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "sourceSha256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "assets/MaShanZheng.woff2",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/MaShanZheng.woff2",
+      "bytes": 231680,
+      "sha256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "sourceSha256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "removedHostingScripts": 0
+    },
+    {
+      "path": "assets/yu-couplet.jpg",
+      "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/yu-couplet.jpg",
+      "bytes": 602201,
+      "sha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "sourceSha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "removedHostingScripts": 0
+    }
+  ]
+}
