@@ -1,39 +1,43 @@
 {
   "source": "https://mochan-caoshu.s419505080.chatgpt.site",
   "exportedAt": "2026-09-30T11:18:32.712Z",
-  "note": "Public static deployment snapshot; not a Git history export. Only hosting-injected Cloudflare challenge scripts were removed.",
+  "note": "Current edited static snapshot: four complete classics, chapter navigation, accessible large-text controls, the full Yu Youren font and explicit loading/retry states without temporary replacement scripture.",
   "files": [
     {
       "path": "index.html",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/",
-      "bytes": 6145,
-      "sha256": "f8143ed9fa8cac0f0c9c37dda2242ac30ceda494dc9dc1f82165807563179c97",
+      "bytes": 6507,
+      "sha256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
       "sourceSha256": "5a0ac6bc5150b816e4aca65af5d01183ca6b2418632e3438afcae67fce91d39c",
-      "removedHostingScripts": 1
+      "removedHostingScripts": 1,
+      "locallyEdited": true
     },
     {
       "path": "style.css",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/style.css",
-      "bytes": 17154,
-      "sha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
+      "bytes": 70913,
+      "sha256": "599161114366151234fd27eec6561d65325d7775d6ee7648ecd6f3cb8ffd144e",
       "sourceSha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
-      "removedHostingScripts": 0
+      "removedHostingScripts": 0,
+      "locallyEdited": true
     },
     {
       "path": "app.js",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/app.js",
-      "bytes": 13416,
-      "sha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
+      "bytes": 18830,
+      "sha256": "361cd87475cbd60d9c97b16f661461efd118dc7a2dc99b75c2aea781a9fbf5aa",
       "sourceSha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
-      "removedHostingScripts": 0
+      "removedHostingScripts": 0,
+      "locallyEdited": true
     },
     {
       "path": "content.json",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/content.json",
-      "bytes": 66109,
-      "sha256": "f36bb176d447d4ff60a741dd14bc95e2e0e5e796641fb826b76b036d179a6b21",
+      "bytes": 513055,
+      "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
       "sourceSha256": "f36bb176d447d4ff60a741dd14bc95e2e0e5e796641fb826b76b036d179a6b21",
-      "removedHostingScripts": 0
+      "removedHostingScripts": 0,
+      "locallyEdited": true
     },
     {
       "path": "assets/favicon.svg",
@@ -46,10 +50,11 @@
     {
       "path": "assets/YuYouren.woff2",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/assets/YuYouren.woff2",
-      "bytes": 130836,
-      "sha256": "d63c1ed1a9fe5aa80742dfc51c751401741065a38ec02e8911eb5ad2ff4cb414",
+      "bytes": 1812748,
+      "sha256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
       "sourceSha256": "d63c1ed1a9fe5aa80742dfc51c751401741065a38ec02e8911eb5ad2ff4cb414",
-      "removedHostingScripts": 0
+      "removedHostingScripts": 0,
+      "locallyEdited": true
     },
     {
       "path": "assets/LongCang.woff2",
@@ -75,5 +80,6 @@
       "sourceSha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
       "removedHostingScripts": 0
     }
-  ]
+  ],
+  "updatedAt": "2026-09-30T13:10:03.337665+00:00"
 }

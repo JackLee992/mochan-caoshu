@@ -2,6 +2,22 @@
 
 更新时间：2026-09-30（Asia/Shanghai）。
 
+## 最新内容与字体更新（2026-09-30）
+
+- 已在原 Netlify 项目完成发布，当前生产部署为 `6abd0a53030f75973205959f`，网址仍为 <https://mochan-caoshu.netlify.app>。本次上传3个变更文件，部署包含完整9个文件；前一阶段全量字库与经典更新部署为 `6abd087f259226875568c903`。
+- 加入王弼本《道德经》全文81章、5297正文汉字，以及维基文库繁体整理本《论语》全文20篇、15929正文汉字。提供章节/篇目下拉选择、前后翻页、切书后保留当前篇章位置。固定来源和异文说明见 `docs/CLASSICS.md`。
+- 为中老年受众把默认字号设为48，范围24–200；新增缩小/放大按钮、64/96/160快捷字号。主要阅读与章节控件至少48像素高。
+- 按用户“直接用全量字库，不用保留”要求，以原TTF全量转换覆盖旧精简 WOFF2。文件1,812,748字节，保留22153码位、22141字形；全部cmap、轮廓与横纵排度量验证一致，只移除嵌入位图表。CSS字体资源附哈希版本参数。
+- 查明原包10794汉字共用「缺」占位，不能把cmap存在当成实际有对应草书。CSS排除占位，真正「缺」仍用原字体；其他字以设备正体补读。心经、金刚经、道德经、论语分别涉及1、1、12、41个独立字。全量文件未删减字符。
+- 按最新要求增加字体加载提示：初始HTML不包含可见备用正文；选定草书加载完成后才显示经文，等待时明确显示加载中。下载失败保留占位并提供重新载入，字体雅集样例也等待各自字库。
+- 本地模拟8秒字体延迟与503失败，验证加载期间正文隐藏、列印禁用、错误重试、快速切换后旧下载不会覆盖当前书体。CDP实际渲染核对「觀」用原草书 SCFYYREN，「埵」用设备 Kaiti SC。
+- 检查81章道德经、20篇论语及32分金刚经的末章与翻页边界。390像素宽手机视口、200像素字大和米字格没有整页横向溢出；阅读区域内部可滚动。
+- 当前静态文件总计3,462,473字节，部署包2,890,000字节；完整性与章节校验通过。当前公网及浏览器证据见 `docs/evidence/netlify-classics-full-font-2026-09-30.json`，字体核查见 `docs/evidence/yu-font-classics-2026-09-30.json`。
+- 此次更新发布到 Netlify，未同步旧 ChatGPT Sites 镜像；保持手动 Drop，没有配置 GitHub 自动发布。此前用户手机无VPN反馈覆盖首次发布，不冒充本次新字体下载的手机实测。
+
+以下为首次迁移和部署的历史记录。
+
+
 ## 目标和已确认的选择
 
 用户希望中国大陆访客无需 VPN 就能访问「墨禅 · 草书经卷」。原站托管在 ChatGPT Sites。
@@ -60,7 +76,7 @@ CloudBase 已不再是当前部署路线；Gitee 不是 Render 部署前置条�
 - 用户确认已登录并认领；控制台实际进入项目概览，提示项目应用团队默认 Private 可见性。
 - 在 **Make public** 中确认 Public、检查新名称可用，将同一个项目更名为 `mochan-caoshu` 后公开；平台显示 `Your project is public` / `Anyone can visit your production site.`，没有重复建站。
 - **正式生产网址：<https://mochan-caoshu.netlify.app>**；控制台：<https://app.netlify.com/projects/mochan-caoshu/overview>。
-- 当前生产部署 ID：`6abcfde2fabe2f2caa80b714`，控制台显示 `Currently published`、`Production`、`9 new files uploaded`，来自 Netlify Drop。网站快照对应原仓库提交 `3fd54f9c09fb5c204efd329b9bc7b87eebb3a7ef`；后续提交仅新增交接说明和可选配置，没有改动 `site/` 或 ZIP。
+- 首次生产部署 ID：`6abcfde2fabe2f2caa80b714`，控制台显示 `Currently published`、`Production`、`9 new files uploaded`，来自 Netlify Drop。网站快照对应原仓库提交 `3fd54f9c09fb5c204efd329b9bc7b87eebb3a7ef`；后续提交仅新增交接说明和可选配置，没有改动 `site/` 或 ZIP。
 - **Usage & billing** 实际显示 `Free`、`You are on the free plan. You do not need to enter payment information.`、`No credit card info saved`。没有开通付费升级或添加付款方式。
 - 无 Cookie 验收：首页及全部九项静态资源 HTTP 200、类型有效，没有密码框或原托管验证脚本；八个资源 SHA-256 与本地完全一致。首页可能被 Netlify 插入 326 字节托管说明 HTML 注释，去除唯一该注释后与本地完全一致，没有新增可执行脚本。因此不能说九项原始哈希全部相同。
 - 在原文浏览器验证《心经》显示 260 字、《金刚经》章节选项 32 个、可跳转第 32 分和上一品；于右任/龙藏/马善政三种字体类切换正确、字大可调至 54、横排与米字格状态正确。

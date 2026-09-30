@@ -1,0 +1,188 @@
+{
+  "checkedAtUTC": "2026-09-30T13:12:41.322738+00:00",
+  "productionURL": "https://mochan-caoshu.netlify.app",
+  "productionDeployID": "6abd0a53030f75973205959f",
+  "requestCookieHeader": false,
+  "filesChecked": 9,
+  "allHTTP200": true,
+  "allSiteContentEquivalent": true,
+  "files": [
+    {
+      "path": "index.html",
+      "url": "https://mochan-caoshu.netlify.app/",
+      "finalURL": "https://mochan-caoshu.netlify.app/",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 6507,
+      "sha256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
+      "expectedSHA256": "17c1fef276e03aeb5413fcaa6b4ce02b90746b488dce71575644cc3105120197",
+      "matchesLocal": true,
+      "contentEquivalent": true,
+      "injectedCommentBytes": 0,
+      "passwordInputDetected": false,
+      "hostingChallengeDetected": false
+    },
+    {
+      "path": "style.css",
+      "url": "https://mochan-caoshu.netlify.app/style.css",
+      "finalURL": "https://mochan-caoshu.netlify.app/style.css",
+      "httpStatus": 200,
+      "contentType": "text/css; charset=UTF-8",
+      "bytes": 70913,
+      "sha256": "599161114366151234fd27eec6561d65325d7775d6ee7648ecd6f3cb8ffd144e",
+      "expectedSHA256": "599161114366151234fd27eec6561d65325d7775d6ee7648ecd6f3cb8ffd144e",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "app.js",
+      "url": "https://mochan-caoshu.netlify.app/app.js",
+      "finalURL": "https://mochan-caoshu.netlify.app/app.js",
+      "httpStatus": 200,
+      "contentType": "application/javascript; charset=UTF-8",
+      "bytes": 18830,
+      "sha256": "361cd87475cbd60d9c97b16f661461efd118dc7a2dc99b75c2aea781a9fbf5aa",
+      "expectedSHA256": "361cd87475cbd60d9c97b16f661461efd118dc7a2dc99b75c2aea781a9fbf5aa",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "content.json",
+      "url": "https://mochan-caoshu.netlify.app/content.json",
+      "finalURL": "https://mochan-caoshu.netlify.app/content.json",
+      "httpStatus": 200,
+      "contentType": "application/json",
+      "bytes": 513055,
+      "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "expectedSHA256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "matchesLocal": true,
+      "contentEquivalent": true,
+      "volumes": {
+        "heart": {
+          "sections": 0,
+          "characters": 260
+        },
+        "diamond": {
+          "sections": 32,
+          "characters": 5179
+        },
+        "daodejing": {
+          "sections": 81,
+          "characters": 5297
+        },
+        "lunyu": {
+          "sections": 20,
+          "characters": 15929
+        }
+      }
+    },
+    {
+      "path": "assets/favicon.svg",
+      "url": "https://mochan-caoshu.netlify.app/assets/favicon.svg",
+      "finalURL": "https://mochan-caoshu.netlify.app/assets/favicon.svg",
+      "httpStatus": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 303,
+      "sha256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "expectedSHA256": "83714aa3924ca3cb1ba0abc52e964a0c28559932bab9c462e6b7d27622778ae6",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/YuYouren.woff2",
+      "url": "https://mochan-caoshu.netlify.app/assets/YuYouren.woff2?v=1ef3f2db5ce9",
+      "finalURL": "https://mochan-caoshu.netlify.app/assets/YuYouren.woff2?v=1ef3f2db5ce9",
+      "httpStatus": 200,
+      "contentType": "font/woff2",
+      "bytes": 1812748,
+      "sha256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+      "expectedSHA256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/LongCang.woff2",
+      "url": "https://mochan-caoshu.netlify.app/assets/LongCang.woff2",
+      "finalURL": "https://mochan-caoshu.netlify.app/assets/LongCang.woff2",
+      "httpStatus": 200,
+      "contentType": "font/woff2",
+      "bytes": 206236,
+      "sha256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "expectedSHA256": "3fb1debe2d3ba930c14d35ece4308c1a66205933f3f19b3b2f106d66f181f3c1",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/MaShanZheng.woff2",
+      "url": "https://mochan-caoshu.netlify.app/assets/MaShanZheng.woff2",
+      "finalURL": "https://mochan-caoshu.netlify.app/assets/MaShanZheng.woff2",
+      "httpStatus": 200,
+      "contentType": "font/woff2",
+      "bytes": 231680,
+      "sha256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "expectedSHA256": "823a29168d4684d856fa1756fba6df0926079b3dd20ad7ad95ae6e61df884f4c",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    },
+    {
+      "path": "assets/yu-couplet.jpg",
+      "url": "https://mochan-caoshu.netlify.app/assets/yu-couplet.jpg",
+      "finalURL": "https://mochan-caoshu.netlify.app/assets/yu-couplet.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 602201,
+      "sha256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "expectedSHA256": "126bf02bb305ece340a3b91b6f8584eb3a1dcfc1920f36b25e2786f688b1881b",
+      "matchesLocal": true,
+      "contentEquivalent": true
+    }
+  ],
+  "netlifyUI": {
+    "project": "mochan-caoshu",
+    "productionStatus": "Currently published",
+    "deploymentMethod": "Netlify Drop",
+    "changedFiles": 3,
+    "totalFiles": 9,
+    "githubIntegrationConfigured": false
+  },
+  "browserVerification": {
+    "daodejingChapterOptions": 81,
+    "daodejingLastChapter": "第八十一章",
+    "lunyuChapterOptions": 20,
+    "lunyuLastChapter": "堯曰第二十",
+    "diamondChapterOptions": 32,
+    "diamondLastChapter": "應化非真分第三十二",
+    "lastChapterNextDisabled": true,
+    "maximumFontSizeObserved": 200,
+    "mobileViewportWidth": 390,
+    "mobileDocumentWidth": 390,
+    "majorTouchTargetMinimumHeight": 48,
+    "fullFontAssetVersion": "1ef3f2db5ce9",
+    "consoleWarningsOrErrors": []
+  },
+  "loadingVerification": {
+    "method": "Local HTTP preview with eight-second delay and intentional 503 font response; same release files",
+    "pendingScriptureHidden": true,
+    "pendingBusy": true,
+    "pendingPrintDisabled": true,
+    "failedScriptureHidden": true,
+    "failedRetryVisible": true,
+    "retryTriggersNewLoad": true,
+    "staleFontCompletionDoesNotReplaceNewSelection": true,
+    "initialFallbackScriptureRemoved": true
+  },
+  "fontVerification": {
+    "fullCmapCodepoints": 22153,
+    "fullGlyphs": 22141,
+    "woff2Bytes": 1812748,
+    "placeholderCodepointsExcludedFromFontFace": 10794,
+    "knownGuanRenderedFont": "SCFYYREN",
+    "missingDuoRenderedFont": "STKaitiSC-Regular",
+    "actualGlyphFontInspection": "Local browser CDP CSS.getPlatformFontsForNode"
+  },
+  "boundary": "Current anonymous HTTP and browser verification is from the local machine; the user mobile Wi-Fi/mobile-data without VPN report was for the initial deployment, not a new physical-phone test of this release.",
+  "screenshots": {
+    "production": "images/classics-full-font-live.jpg",
+    "simulatedSlowFontLoading": "images/font-loading.jpg"
+  }
+}

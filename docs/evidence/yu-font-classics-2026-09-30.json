@@ -1,0 +1,1686 @@
+{
+  "dependencies": {
+    "fontTools": "4.66.0",
+    "Brotli": "1.2.0"
+  },
+  "source": {
+    "path": "user-supplied/于右任标准草书.zip",
+    "zipMember": "original TTF inside user-supplied ZIP (legacy filename encoding)",
+    "containerSha256": "a38edeb68285bd967f25862d5f512781b7d5074a84e6d5e73a538eedd63b88f9",
+    "ttfSha256": "524cae836dce668ba56913767b8457da8455d374b1f6474e1247a4a8707e5585",
+    "ttfBytes": 9759204,
+    "cmapCodepoints": 22153,
+    "glyphs": 22141,
+    "hanCmapCodepoints": 20976
+  },
+  "output": {
+    "path": "site/assets/YuYouren.woff2",
+    "bytes": 1812748,
+    "sha256": "1ef3f2db5ce95682ae25166d124cd3e02ab2812b81511469bef753cdf69545a9",
+    "cmapCodepoints": 22153,
+    "glyphs": 22141,
+    "removedBitmapTables": [
+      "EBDT",
+      "EBLC"
+    ]
+  },
+  "verification": {
+    "allCmapSubtablesUnchanged": true,
+    "allGlyphNamesAndOrderUnchanged": true,
+    "allGlyphOutlineComparisons": 22141,
+    "allGlyphOutlinesAndHorizontalVerticalMetricsMatchTtf": true,
+    "unicodeSubsettingApplied": false
+  },
+  "fontFaceUnicodeRange": {
+    "path": "site/style.css @font-face YuYouren",
+    "permittedCodepoints": 11359,
+    "excludedPlaceholderCodepoints": 10794,
+    "compressedRanges": 4894,
+    "genuineQueU7F3ARetained": true,
+    "cssBytes": 50727,
+    "cssSha256": "70e7429339f1ced3c6e09d7c8dcd307fd76abde6e7936b62a582444ea15ec677",
+    "syntaxRangesIndependentlyExpandedAndVerified": true,
+    "allCurrentBookSharedPlaceholderCharactersExcluded": true,
+    "cacheVersion": "1ef3f2db5ce9"
+  },
+  "outlineAudit": {
+    "emptyOutlineCodepoints": [
+      {
+        "codepoint": "U+0020",
+        "character": " ",
+        "unicodeName": "SPACE"
+      },
+      {
+        "codepoint": "U+007F",
+        "character": "",
+        "unicodeName": "CONTROL OR UNASSIGNED"
+      },
+      {
+        "codepoint": "U+00A0",
+        "character": " ",
+        "unicodeName": "NO-BREAK SPACE"
+      },
+      {
+        "codepoint": "U+3000",
+        "character": "　",
+        "unicodeName": "IDEOGRAPHIC SPACE"
+      }
+    ],
+    "hanWithEmptyOutline": 0,
+    "literalNotdefMappings": [],
+    "sameOutlineAsNotdef": [
+      {
+        "codepoint": "U+0020",
+        "character": " ",
+        "unicodeName": "SPACE"
+      },
+      {
+        "codepoint": "U+007F",
+        "character": "",
+        "unicodeName": "CONTROL OR UNASSIGNED"
+      },
+      {
+        "codepoint": "U+00A0",
+        "character": " ",
+        "unicodeName": "NO-BREAK SPACE"
+      },
+      {
+        "codepoint": "U+3000",
+        "character": "　",
+        "unicodeName": "IDEOGRAPHIC SPACE"
+      }
+    ],
+    "uniqueOutlineSignatures": 11232,
+    "sharedPlaceholder": {
+      "codepoints": 10794,
+      "hanCodepoints": 10794,
+      "outlineSha256": "0e0b661859967bbb8167d18f1f5c42fa7770e765f58bb8418974f01a4cb4af40",
+      "representative": {
+        "codepoint": "U+4E02",
+        "character": "丂",
+        "unicodeName": "CJK UNIFIED IDEOGRAPH-4E02"
+      },
+      "characters": "丂丄丅丆丏丠両丣丩丮丯丱丳丵丷丼乀乁乄乆乊乑乕乚乛乢乣乤乥乧乨乪乫乬乭乮乯乲乴乵乶乷乸乺乻乼乽乿亀亃亄亅亇亐亖亗亝亣亪亯亰亱亴亶亷亸亼亽亾仈仌仏仐仒仚仛仜仠仢仦仧仩仭仮仯仱仴仸仹仺仼仾伀伂伃伄伅伆伇伈伋伌伒伓伔伕伖伜伝伡伣伨伩伬伭伮伱伳伵伹伻伾伿佀佁佂佄佅佉佊佋佌佒佖佡佢佦佨佫佭佮佱佲佷佸佹佺佽侀侁侂侅侇侊侌侎侐侒侓侕侙侚侜侞侟価侢侤侫侭侰侱侲侳侴侷侸侹侺侻侼侽侾俀俆俈俉俋俌俍俒俔俕俖俙俢俤俥俧俫俰俲俴俵俶俷俹俻俼俽俿倁倂倃倄倇倊倎倓倗倛倝倞倠倢倣倧倯倰倱倲倳倴倵倶倷倸倹倻倽倿偀偁偂偄偅偆偊偋偍偐偑偒偔偖偗偘偙偛偝偞偟偠偡偢偣偤偦偧偨偩偪偫偮偯偰偱偲偳偹偺偼傁傂傃傄傆傇傉傊傋傌傎傏傐傒傓傔傗傛傜傝傟傠傡傤傦傪傫傮傰傱傶傸傹傼傿僀僁僃僄僆僇僈僋僌働僎僐僒僓僔僗僘僙僛僜僟僠僡僢僣僩僪僫僯僰僱僲僴僶僷僸僺僼僾僿儅儊儌儍儎儏儑儓儖儗儙儚儛儝儞儠儢儣儤儥儦儧儨儩儫儬儭儮儯儰儱儳儴儶儸儹儽儾兂兊兎兏児兓兘兙兛兝兞兟兠兡兣兤兦兪兯兲兺兿円冇冋冎冏冐冔冘冚冝冞冟冡冣冦冧冨冩冭冮冴冸冹冺冾冿凁凂凃凅凎凐凒凓凔凕凖凗凘凙凚凞凟凢凣凥処凧凨凩凪凬凮凲凴凷凾刄刅刉刌刏刐刓刔刕刜刞刟刡刢刣刦刧刬刯刱刲刴刵刼刾剅剆剈剉剏剒剓剕剘剙剚剟剠剢剣剤剦剨剫剬剭剱剶剸剹剺剻剼剾劀劅劆劋劏劕劗劘劙劜劤劥劦劧劮劯劰労劵劶劷劸効劺劻劼劽勀勂勄勆勈勊勌勍勎勏勓勔勗勚勜勠勡勥勦勧勨勩勪勫勬勭勮勯勲勴勶勷勼勽匁匂匇匉匋匌匎匑匒匓匔匘匛匜匞匟匢匤匥匧匨匩匫匬匰匲匳匴匵匶匷匸匼匽卂卄卆卋卌卐単卙卛卝卥卨卪卬卭卲卶卹卼卽卾厀厁厃厇厈厊厎厏厐厑厒厓厖厗厛厜厞厠厡厤厧厪厫厬厯厰厱厳厵厷厸厹厼厽厾叀叆叇収叏叐叒叓叕叚叜叝叞叡叴叺叾叿吀吂吇吔吘吙吚吜吢吤吥吪吰吷吺呁呄呅呇呌呍呎呏呑呚呝呞呟呠呡呣呥呧呩呪呫呬呭呮呯呰呴呹呺呾呿咁咃咅咈咉咊咑咓咗咘咜咞咟咠咡咢咮咰咲咵咷咹咺咾哅哊哋哖哘哛哠哣哤哬哯哰哱哴哵哶哷哸哹哻哾唀唂唃唅唈唊唋唌唍唎唒唓唖唗唘唙唜唝唞唟唡唥唦唨唩唫唭唲唴唶唸唹唺唻唽啀啂啇啈啋啌啍啎啑啒啗啘啙啚啛啝啠啢啣啨啩啫啯啰啱啲啳啴啹啺啽啿喅喆喌喍喎喐喒喓喕喖喗喛喞喠喡喢喣喤喥喦喩喭喯喰喴営喸喺喼喿嗀嗁嗂嗃嗈嗊嗋嗏嗕嗘嗙嗞嗠嗢嗧嗭嗮嗰嗱嗴嗸嗹嗺嗻嗼嗿嘂嘃嘄嘅嘇嘊嘋嘐嘕嘙嘚嘝嘢嘥嘦嘪嘫嘳嘺嘼嘽嘾噂噃噄噆噈噉噊噋噏噐噒噕噖噚噛噞噟噡噣噧噮噰噳噵噷噺噽噾噿嚁嚂嚃嚄嚉嚊嚋嚍嚐嚑嚒嚔嚖嚗嚘嚚嚛嚜嚝嚞嚟嚠嚡嚤嚥嚧嚩嚪嚫嚭嚰嚱嚲嚵嚸嚹嚺嚻嚽嚾嚿囃囄囆囇囉囌囍囎囏囐囓囕囖囘囙囜囥囦囨囩囮囯囲図囶囸囻囼圀圁圂圅圌圏圐圑圔圕圙圚圛圝圠圡圢圤圥圦圧圫圱圲圴圵圶圷圸圼圽圿坁坃坄坅坆坈坉坋坒坓坔坕坖坘坙坢坣坥坧坬坮坲坴坵坸坹坺坽坾坿垀垁垇垈垉垊垍垎垏垐垑垔垖垗垘垙垚垝垞垟垥垨垪垬垯垰垱垳垶垷垹垺垻垼垽垾垿埀埁埄埅埆埇埈埉埊埌埍埐埑埖埗埛埜埞埢埣埥埦埧埨埩埪埫埬埮埰埱埲埵埻埼埾埿堁堃堄堈堉堌堎堏堐堒堓堔堗堘堚堛堜堟堢堣堥堦堧堨堩堫堬堭堮堲堳堶堷堸堹堺堻堼堽堾塀塁塂塃塅塆塇塈塉塎塐塓塕塖塙塛塜塝塟塠塣塦塧塨塩塪塭塮塯塰塱塲塳塴塶塷塸塺塻塼塽塿墂墄墆墇墈墋墌墍墎墏墐墑墔墕墖墘墛墝墠墡墢墣墤墥墦墧墪墫墬墭墯墰墱墲墴墶墷墸墹墺墻墽墿壀壂壃壄壆壉壊壋壌壍壏壐壒壔壗壛壜壝壠壡壣壥壦壧壨壪壭壱壴壵壷壻壾壿夁夃夅夆夈変夊夋夌夎夐夑夓夗夘夛夝夞夡夣夦夨夰夲夳夵夶夻夽夿奀奃奅奆奊奌奍奒奓奙奛奜奝奞奟奡奣奤奦奫奭奯奰奱奲奵奺奻奾奿妀妅妉妋妌妎妏妐妑妔妕妘妚妛妜妟妠妡妢妦妧妬妭妰妱妳妴妵妶妷妸妼妽妿姀姁姂姃姄姅姇姈姉姌姎姏姕姖姙姛姞姟姠姡姤姧姩姪姭姮姯姰姲姳姴姵姶姷姸姺姼姽姾娂娊娋娍娎娏娐娒娔娕娖娗娙娚娝娞娡娢娤娦娧娨娪娫娬娭娮娰娳娷娸娹娺娻娽娾娿婂婃婄婅婇婈婋婌婍婎婏婐婑婒婓婔婖婗婘婙婛婜婝婟婠婡婣婤婥婨婩婫婮婯婰婱婲婳婸婹婻婼婽婾媀媁媂媃媄媅媆媇媈媉媊媋媌媍媎媏媐媑媓媕媖媗媘媙媜媝媞媟媠媡媢媣媤媥媦媨媩媫媬媭媰媱媴媶媷媹媺媻嫀嫃嫄嫅嫆嫇嫈嫊嫍嫎嫏嫐嫑嫓嫕嫙嫚嫛嫝嫞嫟嫢嫤嫥嫧嫨嫪嫬嫮嫯嫰嫲嫳嫴嫶嫷嫸嫹嫺嫼嫽嫾嫿嬀嬁嬂嬄嬅嬆嬇嬊嬍嬎嬏嬐嬑嬒嬓嬔嬕嬘嬚嬛嬜嬝嬞嬟嬠嬢嬣嬥嬦嬧嬨嬩嬫嬬嬭嬮嬯嬱嬳嬵嬶嬹嬺嬻嬼嬽嬾嬿孁孂孃孄孅孆孇孈孉孊孋孍孎孏孒孖孞孠孡孧孨孭孮孯孲孴孶孷孹孻孾宂宆宊宍宎宐宑宒宔宖実宧宨宩宬宭宯宱宲宷宺宼寀寁寃寈寉寊寋寍寎寏寑寕寖寗寘寙寚寠寣寪寭寯寱寲寴寷寽対尀専尃尌尐尒尗尙尞尟尠尡尣尦尨尩尭尮尯尰尲尳尵屃屆屌屒屓屔屖屗屘屚屛屝屟屧屩屪屫屭屰屲屳屴屵屶屷屸屻屼屽屾岀岃岄岅岆岇岉岊岋岎岏岒岓岕岝岞岟岠岤岥岦岧岨岪岮岯岰岲岴岶岹岺岻岼岾峀峂峃峅峆峇峈峉峊峌峍峎峏峐峑峓峔峕峖峗峘峚峛峜峝峞峟峠峢峣峧峩峫峬峮峯峱峲峳峵峷峸峹峺峼峾峿崀崁崄崅崈崉崊崋崌崏崐崓崕崘崜崝崡崣崥崨崪崫崯崰崱崲崵崶崷崸崹崺崻崼崿嵀嵁嵃嵄嵅嵆嵈嵉嵍嵏嵑嵒嵓嵔嵕嵖嵗嵙嵚嵜嵞嵟嵡嵢嵣嵤嵥嵦嵧嵨嵪嵭嵮嵰嵱嵲嵳嵵嵶嵷嵸嵹嵺嵻嵼嵽嵾嵿嶀嶃嶅嶆嶈嶉嶊嶋嶌嶍嶎嶏嶐嶑嶔嶕嶖嶘嶚嶛嶜嶞嶟嶡嶣嶤嶥嶦嶨嶩嶪嶫嶬嶭嶮嶯嶰嶱嶳嶵嶶嶹嶻嶾嶿巀巁巂巃巄巆巇巈巊巌巎巏巐巑巕巘巙巚巜巟巠巤巪巬巭巶巸巺巻巼巿帀帄帇帉帊帋帍帎帒帗帞帟帠帡帢帣帤帨帩帪帬帯帰帲帴帵帹帺帾帿幁幆幇幈幉幊幋幍幎幏幐幑幒幓幖幚幜幝幠幥幦幧幨幩幪幭幮幯幰幱幵庁庂広庅庈庉庌庍庎庒庘庛庝庡庢庣庤庨庩庪庬庮庯庰庱庲庴庺庻庼庽庿廀廃廅廆廇廋廌廍廎廏廐廔廕廗廘廜廞廤廥廦廧廫廭廮廯廲廵廸廹廻廼廽弅弆弉弌弍弐弖弙弚弜弝弞弡弢弣弤弨弫弬弮弰弲弴弶弸弽弿彁彂彃彄彅彇彉彊彋彍彏彑彔彟彠彣彨彮彯彲彴彵彶彸彺彽彾彿徃徆徍徎徏徔徖徚徛徝徟徢徣徤徥徦徫徬徯徰徱徲徳徶徸徺徻徾徿忀忁忂忇忈忊忋忎忓忔忕忚忛応忞忟忢忣忥忦忨忩忬忯忰忲忴忶忷忹忺怇怈怉怋怌怑怓怘怚怟怢怣怤怭怮怰怱怲怴怶怷怸怹怺怽怾恀恄恅恇恈恉恊恌恎恏恑恔恖恗恘恛恜恞恟恠恡恦恮恱恴恵恷恾悀悂悆悈悊悋悎悏悐悑悓悕悗悘悙悜悞悡悤悥悧悩悪悰悳悹悺悾悿惁惂惃惈惉惌惍惎惏惐惒惓惔惖惗惙惞惢惣惤惥惪惵惼惽惾惿愂愃愄愅愇愊愋愌愐愑愒愓愔愖愗愘愙愝愞愡愢愥愩愪愭愮愯愰愱愲愳愵愶愸愹愺愻愼愽慀慁慂慃慅慇慉慏慐慒慔慖慗慛慜慞慠慡慤慥慦慩慬慭慯慱慲慴慸慹慺慻慾慿憁憃憄憅憆憈憉憌憏憓憕憖憗憘憙憜憞憟憠憡憢憣憥憦憪憭憰憱憳憴憵憸憹憻憼憽憿懀懁懄懅懆懎懏懓懕懖懗懘懙懚懛懜懝懠懡懢懥懧懩懪懫懬懮懯懰懱懳懴懹懻懽戁戂戄戅戉戓戙戜戝戞戠戣戨戫戭戹戺戻戼扂扄扅扊扏扐払扖扗扙扚扜扝扞扟扤扥扨扱扲扴扵扷扸扺扻扽抁抂抇抈抋抌抍抎抏抐抔抙抜抝択抣抦抧抩抪抭抮抰抲抳抴抶抷抸抺抾拀拁拕拝拞拠拡拤拪拫拰拲拵拸拹拺拻挀挃挄挅挆挊挋挌挍挏挐挒挓挔挕挗挘挙挜挧挩挬挭挮挰挱挳挴挵挶挷挸挻挼挿捀捁捄捇捈捊捑捒捓捔捖捗捙捚捛捜捝捠捤捥捦捪捬捯捰捳捴捵捸捹捼捾捿掁掅掆掋掍掑掓掕掚掜掝掞掟掦掫掱掲掵掶掹掻掽掿揁揂揃揅揇揈揊揋揑揓揕揗揘揙揜揟揢揤揥揦揧揨揬揯揰揱揳揵揷揹揺揻揼搃搄搆搇搈搎搑搒搘搙搚搝搟搢搣搤搥搨搩搮搯搰搱搲搳搵搷搸搹搻搼搾摀摃摉摋摌摍摎摏摓摕摖摗摙摚摝摡摢摤摥摦摨摪摫摬摮摱摲摴摵摷摼摽摾摿撀撁撃撆撉撊撋撌撍撎撔撗撘撛撜撝撠撡撦撧撨撪撯撱撴撶撹撽擃擆擈擉擌擏擑擓擕擖擙擛擜擝擟擣擥擧擨擩擪擫擭擮擳擵擶擸擹擽攁攂攃攅攇攈攊攋攌攍攎攐攑攓攕攗攚攞攟攠攡攧攨攩攭攰攱攲攳攷攼攽敀敁敂敃敄敆敇敊敋敎敐敒敓敔敚敜敟敡敤敥敨敩敭敮敯敱敳敹敺敻敼敽敾敿斀斁斄斅斆斈斉斊斍斎斏斒斔斖斘斞斠斢斣斦斨斪斱斲斳斴斵斶斸斺斻旀旇旈旉旊旑旓旔旕旘旚旛旜旝旞旡旤旪旫旲旳旴旵旸旹旼旽旾旿昁昄昅昈昉昋昍昐昑昒昖昗昘昚昛昜昞昢昣昤昦昩昪昫昬昮昲昳昷昸昹昺昻昽昿晀晄晅晆晇晈晊晍晎晐晑晘晛晜晠晢晣晥晧晩晪晫晭晱晲晳晵晸晹晼晽晿暀暁暃暅暆暊暋暍暎暏暐暒暓暔暕暙暚暛暜暞暟暠暡暣暤暥暦暩暪暬暭暯暰暱暲暳暵暶暷暸暺暻暼暽暿曁曂曅曈曊曋曌曍曎曏曐曑曒曓曔曕曗曘曚曞曟曡曢曣曤曥曧曨曪曫曭曮曯曱曵曻朁朂朄朅朆朇朌朎朏朑朒朓朖朘朙朚朜朞朠朡朢朣朤朥朰朲朳朶朷朸朹朻朼朾朿杁杅杇杊杋杍杒杔杕杗杘杙杚杛杝杢杣杤杦杧杫杬杮杴杶杸杹杺杽枀枂枃枅枆枈枊枌枍枎枏枑枔枖枙枛枟枠枡枤枦枩枬枮枱枲枴枺枼枽枾枿柀柂柅柆柇柈柉柊柋柌柍柎柕柖柗柛柟柡柣柤柦柧柨柪柫柭柲柶柷柸柹柺査柼柾栂栃栄栆栍栐栒栔栕栘栙栚栛栜栞栟栠栢栣栤栥栦栧栨栫栬栭栮栯栰栱栴栵栶栺栻栿桇桋桍桏桒桖桗桘桙桚桛桜桝桞桟桪桬桭桮桯桰桱桲桳桵桸桹桺桻桼桽桾桿梀梂梄梇梈梉梊梋梌梍梎梐梑梒梕梖梙梚梛梜梞梠梡梣梤梥梩梪梫梬梮梱梲梴梶梷梸梹梺梻梼梽梾梿棁棃棅棆棇棈棊棌棎棏棐棑棓棔棙棛棜棝棞棡棢棤棥棦棨棩棪棫棭棯棳棴棶棷棸棻棽棾棿椀椂椃椄椆椇椈椉椊椌椑椓椔椕椖椗椘椙椚椛検椝椞椡椢椣椥椦椧椨椩椪椫椬椮椯椱椲椳椵椶椷椸椺椻椼椾楀楁楃楄楅楆楇楈楉楋楌楍楎楏楐楑楒楕楖楘楛楜楟楡楢楤楥楧楩楪楬楰楲楳楴楶楺楻楽楾楿榁榃榅榊榋榌榎榏榐榑榒榓榗榙榚榝榞榟榠榡榢榣榤榥榦榩榬榯榰榲榳榵榶榸榹榺榼榽槂槄槆槇槈槉槏槑槒槓槕槖槗様槙槚槜槝槞槡槢槣槤槥槦槩槪槫槬槮槯槰槱槴槵槶槷槸槹槻槼槾樀樃樄樆樇樈樉樋樌樍樎樏樐樒樔樕樖樚樜樝樠樢樤樥樦権樫樬樭樮樰樲樳樴樶樷樻樼樿橀橁橂橃橅橆橉橊橌橍橎橏橒橓橔橖橗橚橜橞橠橣橤橧橨橩橪橬橭橮橯橲橳橴橵橶橷橸橺橻橽橾橿檂檃檅檆檇檈檊檋檌檍檏檒檓檕檖檘檙檚檛檞檟檡檤檥檦檧檨檪檭檰檱檲檴檵檶檷檹檺檼檽檿櫀櫁櫄櫅櫆櫇櫉櫊櫌櫍櫎櫏櫐櫑櫒櫔櫕櫖櫗櫘櫙櫜櫠櫡櫢櫣櫤櫦櫩櫭櫮櫯櫰櫱櫲櫴櫵櫶櫷櫹櫼櫽櫾櫿欀欁欂欃欅欆欇欈欉欋欌欍欎欐欑欓欔欕欗欘欙欚欛欜欝欟欥欦欨欩欫欬欭欮欯欰欱欳欴欵欶欻欼欿歀歁歂歄歅歊歋歍歏歑歒歓歕歖歗歘歚歛歜歝歞歠歨歩歫歬歭歮歯歰歱歵歶歺歽歾殅殈殌殎殏殐殑殔殕殗殙殜殝殟殠殢殣殥殦殧殨殩殬殭殰殶殸殹殾毃毄毇毈毉毊毑毘毚毜毝毞毟毠毢毣毤毥毦毩毭毮毱毲毴毶毷毸毺毻毼毾氀氁氂氃氄氉氋氎氒気氜氝氞氠氥氭氱氶氷氺氻氼氿汃汄汅汈汌汍汏汑汒汓汖汘汚汢汣汥汦汧汫汬汮汯汱汳汵汷汸汻汼汿沀沇沊沋沎沑沗沘沚沜沝沞沠沢沨沯沰沴沵沷沺泀泂泃泆泇泈泋泍泎泏泑泒泘泙泚泜泟泤泦泧泩泭泲泴泹泿洀洂洃洅洆洈洉洊洍洏洐洓洔洕洖洘洜洝洟洠洡洢洣洤洦洨洩洬洭洯洰洴洷洸洺浀浂浄浉浌浐浕浖浗浘浛浝浡浢浤浥浧浨浫浬浭浰浱浲浳浵浶浺浻浽浾浿涀涁涃涄涆涊涋涍涏涐涒涖涗涘涙涚涜涢涥涬涭涰涱涳涶涷涺涻涽涾淁淂淃淈淉淊淍淎淏淐淓淔淕淗淛淜淟淢淣淧淭淰淲淴淽淾淿渀渁渂渄渆渇済渉渋渏渒渓渕渘渜渞渟渢渧渪渮渱渳渵渶渷渹渻渼渽渿湀湁湂湆湇湈湉湋湌湏湐湑湒湕湗湙湚湜湝湠湡湢湤湥湦湨湩湪湬湭湰湱湳湴湵湶湷湸湹湺湻湼湽満溁溂溄溇溊溋溌溍溎溑溒溓溔溕溗溙溚溛溞溠溡溣溤溦溨溩溬溭溮溰溳溵溸溹溼溾溿滀滆滈滊滍滐滒滖滘滙滛滜滝滣滧滪滫滭滮滰滱滳滵滶滷滺滻滼滽漀漃漄漅漇漈漊漋漌漍漎漐漑漒漖漗漘漙漛漜漝漞漟漡漥漦漧漨漮漰漴漹漺漻漼漽潀潂潃潄潅潈潉潌潎潐潒潓潕潖潗潙潚潝潟潡潣潥潧潨潩潪潫潬潱潳潵潶潹潻潽潾澁澂澃澅澊澋澏澑澒澓澔澕澖澘澙澚澛澝澞澟澢澣澥澦澪澫澬澭澯澰澲澴澵澷澸澺澻澼澽澾澿濄濅濆濇濈濊濋濌濍濎濏濐濔濖濗濙濚濜濝濢濣濥濧濨濩濪濭濲濳濴濶濷濸濹濻濽濿瀀瀂瀃瀄瀇瀈瀊瀌瀍瀎瀐瀒瀓瀔瀖瀗瀙瀜瀞瀡瀢瀤瀥瀩瀪瀫瀬瀭瀮瀯瀰瀱瀳瀴瀶瀷瀸瀺瀻瀽瀿灀灁灂灅灆灇灈灉灊灋灍灎灐灓灔灖灗灙灚灛灜灟灠灡灢灥灦灧灨灪灮灱灲灳灴灷灹灺灻炂炃炄炆炇炈炋炌炍炏炐炑炓炗炘炚炛炞炟炠炡炢炣炤炥炦炧炨炩炪炰炲炴炵炶炾炿烄烅烆烇烉烋烌烍烎烐烑烒烓烔烕烖烗烚烜烞烠烡烢烣烥烪烮烰烱烲烳烵烶烸烺烻烼烾烿焀焁焂焄焅焆焇焈焋焌焍焎焏焑焒焛焝焞焟焢焣焤焥焧焨焩焪焫焬焭焮焲焳焴焵焷焸焹焺焻焼焽焾焿煀煁煂煃煄煇煈煋煍煏煐煑煓煔煕煖煗煘煚煛煝煟煡煣煪煫煭煯煰煱煵煶煷煹煻煾煿熀熁熂熃熅熆熇熉熍熎熐熑熓熕熚熛熜熝熞熡熢熣熤熥熦熧熩熪熫熭熮熰熲熴熶熷熸熺熻熼熽熿燀燂燄燅燆燇燊燋燌燍燏燐燑燓燖燗燘燚燛燝燞燡燢燣燤燨燩燪燫燬燯燰燱燲燳燵燶燷燸燺燻燽爀爁爂爃爄爅爈爉爋爌爎爏爑爒爓爔爕爗爘爙爚爜爞爟爠爡爣爤爥爦爧爩爫爮爯爳爴爼牀牃牄牅牉牊牎牏牐牑牓牔牕牗牚牞牤牥牦牨牪牫牬牭牰牱牳牴牶牷牻牼犃犅犆犇犈犉犌犎犐犑犓犔犕犗犘犙犚犜犝犞犠犡犣犤犥犦犨犩犪犫犮犱犲犳犵犻犽犾犿狅狆狇狉狊狋狌狏狑狓狕狘狚狛狜狟狣狥狦狧狪狫狵狶狾狿猀猂猄猅猆猈猉猌猍猏猐猑猒猔猘猚猟猠猣猤猦猧猭猯猰猲猳猵猺猼猽獀獂獃獆獇獈獉獊獋獌獏獑獓獔獕獖獘獙獚獛獜獞獟獡獢獣獤獥獦獧獩獱獳獴獶獹獽獿玁玂玃玅玆玈玊玌玍玏玐玒玓玔玕玗玘玙玚玜玝玞玡玣玤玥玧玪玬玭玱玴玵玶玸玹玼玽玾玿珁珃珄珅珆珇珋珌珒珓珔珕珗珘珚珛珜珟珡珢珣珤珦珨珫珬珯珰珱珳珴珶珷珸珹珺珻珼珽珿琀琁琂琄琇琈琋琌琍琎琑琒琓琔琕琖琗琘琙琜琝琞琟琠琡琣琤琧琩琫琭琯琱琲琷琸琹琻琽琾瑂瑃瑄瑅瑆瑇瑈瑊瑌瑍瑎瑏瑐瑑瑒瑓瑔瑖瑘瑝瑡瑢瑥瑦瑧瑨瑫瑬瑮瑲瑳瑴瑵瑸瑹瑺瑻瑼瑽瑿璂璄璅璊璌璍璏璑璒璓璔璕璖璘璙璚璛璡璢璤璥璪璬璭璮璯璱璲璳璴璵璶璷璸璹璻璼璾瓀瓁瓂瓃瓄瓅瓆瓈瓉瓋瓍瓎瓐瓑瓓瓕瓖瓗瓙瓛瓝瓡瓥瓧瓨瓩瓪瓫瓬瓭瓰瓱瓲瓳瓵瓸瓹瓺瓻瓼瓽瓾甀甁甂甅甆甇甈甉甊甋甎甐甒甔甖甗甛甝甞甠甡甤甧甮甴甶甹甼甽甿畁畂畃畆畇畉畊畍畐畑畒畓畕畖畗畘畞畟畠畡畣畤畧畩畭畮畱畳畷畺畻畼畽畾疀疁疂疄疅疈疉疌疍疐疓疕疘疛疜疞疦疧疨疩疪疭疶疷疺疻疿痀痁痆痋痌痎痏痐痑痓痗痚痜痝痟痠痡痥痩痬痭痮痯痲痳痵痶痷痸痻痽痾瘄瘆瘇瘈瘉瘎瘏瘑瘒瘔瘚瘜瘝瘣瘨瘬瘮瘯瘱瘲瘶瘷瘹瘽癁癄癅癈癊癋癏癐癑癒癓癕癗癙癚癛癝癠癦癨癪癳癴癵癷癹発皀皁皃皅皉皊皌皍皏皒皔皕皗皛皝皞皟皠皡皢皣皥皦皧皨皩皪皫皬皭皯皳皵皶皷皹皼皽皾盀盁盄盇盉盋盌盓盕盙盚盝盠盢盦盨盫盭盰盳盵盶盷盺盽盿眀眂眃眅眆県眎眏眐眑眒眓眔眕眖眗眘眛眜眝眡眣眤眧眪眫眬眮眰眱眲眳眴眹眻眿睂睄睅睈睉睊睋睌睎睒睓睔睕睗睘睙睝睟睤睧睩睭睮睯睰睱睲睳睴睵睶睷睸睻睼瞁瞂瞃瞆瞇瞈瞉瞊瞏瞐瞓瞔瞕瞖瞗瞙瞚瞛瞜瞝瞡瞣瞤瞦瞨瞫瞮瞯瞱瞲瞴瞶瞷瞸瞹瞺瞾矀矁矂矃矄矅矆矈矉矊矋矌矎矏矐矑矒矓矔矕矖矘矙矝矞矟矠矡矤矦矨矪矲矵矷矹矺矻砃砄砅砆砇砈砊砋砎砐砓砕砙砛砞砠砡砢砤砨砪砫砮砯砱砳砵砶砽砿硁硂硄硆硈硉硋硍硏硑硓硔硘硙硚硛硜硞硟硡硢硣硥硦硧硩硰硱硲硳硴硵硶硸硹硺硻硽硾硿碀碁碂碃碄碅碆碈碊碋碏碐碒碔碖碙碝碞碠碢碤碦碨碪碫碬碮碯碵碶碻碽碿磀磂磃磄磆磇磈磌磍磎磏磑磒磓磖磗磘磛磜磝磞磟磠磡磢磤磥磦磩磪磫磭磮磰磱磵磶磸磹磼磿礀礂礃礄礆礇礈礊礋礌礍礏礐礑礒礔礕礖礗礘礚礛礜礝礟礠礢礣礥礧礨礩礭礮礯礰礲礳礵礶礷礸礹礽礿祂祃祄祊祋祌祍祏祑祒祔祕祘祙祡祣祤祦祩祪祫祬祮祱祳祴祵祶祹祻祼祽祾禂禃禆禇禈禉禋禌禐禑禒禓禔禖禗禘禙禛禜禝禞禟禠禡禢禣禤禥禨禩禫禬禭禯禲禴禵禶禷禸禼秂秄秇秊秌秎秏秐秓秔秖秗秙秚秛秜秝秞秠秡秢秥秨秪秮秱秲秳秴秵秶秷秹秺秼秾秿稁稄稇稉稊稌稏稐稑稒稓稕稖稘稙稛稜稝稡稢稤稥稦稧稨稩稪稫稬稭稯稰稴稵稶稸稺穁穂穃穄穅穇穈穉穊穋穐穒穓穔穕穖穘穙穚穛穜穝穞穟穤穥穦穧穨穪穬穮穱穲穳穵穻穼穽穾窂窅窇窉窋窌窎窏窓窔窙窚窛窞窡窢窣窤窧窫窰窱窲窴窵窷窸窹窻窼窽窾竀竁竂竃竆竉竌竍竎竏竐竑竒竓竔竕竗竘竚竛竜竡竢竤竧竨竩竪竫竬竮竰竱竲竳竴竵竷竸竻竼竾笀笁笂笅笇笉笌笍笎笐笒笓笖笗笘笚笜笝笟笡笢笣笧笩笭笯笰笲笴笶笷笹笽笿筀筁筂筃筄筎筓筕筗筙筜筟筡筣筥筦筨筩筪筫筬筭筯筰筶筸筺筼筽筿箁箂箃箄箆箇箈箉箊箌箎箑箒箓箖箘箙箚箛箞箟箠箣箤箥箮箯箰箲箳箵箶箷箹箺箻箼箽箾箿篂篃篅篈篊篍篎篐篒篔篕篖篗篘篛篜篞篟篠篢篣篧篨篫篬篭篯篰篲篴篵篶篸篹篺篻篽簁簂簃簄簅簈簉簊簎簐簑簒簓簔簕簗簘簙簚簛簜簝簠簢簤簥簨簩簭簮簯簰簱簲簳簴簵簶簹簺簻簼籂籄籅籆籇籈籉籊籋籎籏籐籑籓籔籕籖籗籘籚籛籝籞籡籢籣籦籧籨籫籭籯籰籱籵籶籷籸籹籺籾籿粀粁粂粃粄粅粆粇粈粊粋粌粍粎粏粐粓粔粖粙粚粛粠粡粣粦粧粨粩粫粬粭粯粰粴粶粷粸粺粿糀糂糃糄糆糉糋糎糏糐糑糒糓糔糘糚糛糡糢糣糤糥糦糩糪糫糬糭糮糱糳糵糷糺糼糽糿紁紃紌紎紏紑紒紖紝紟紣紤紥紦紨紩紪紬紭紴紶紷紸紻紽紾絁絅絇絈絉絊絋経絍絑絒絔絖絗絘絚絟絠絣絤絥絧絩絪絫絬絭絰絴絵絸絺絻絼絽絾絿綀綂綄綅綇綉綊綋綌綍綎綐綑綒綔綕綖綗綘継続綛綟綡綤綥綧綨綩綪綫綯綳綶綼緀緁緂緃緅緆緈緉緌緍緎総緐緑緓緕緛緜緟緢緤緥緧緪緫緭緮緰緳緵緷緸緺緼緽緾緿縀縁縂縃縄縅縆縇縌縍縏縒縓縔縕縖縗縘縙縚縜縠縡縢縤縥縦縨縩縪縬縯縰縳縴縸縼縿繀繂繄繉繊繋繌繍繎繏繐繑繓繕繖繗繘繙繛繜繝繟繠繤繥繧繬繮繱繲繴繵繶繷繸繺繻繿纀纃纄纅纆纇纉纋纐纗纙纝纞纴纻纼绖绤绬绹缊缐缞缷缹缻缼缾缿罀罁罃罆罇罈罉罊罋罍罏罒罓罖罙罛罜罝罞罠罤罦罧罬罭罯罳罶罸罺罻罼罽罿羀羂羄羉羍羏羐羒羓羖羗羘羙羛羜羠羢羦羪羫羬羮羱羳羴羵羶羷羺羻羾翀翂翃翄翆翇翈翉翋翍翏翐翑翓翖翗翙翚翜翝翞翢翣翤翧翨翪翬翭翯翲翴翵翶翷翸翽翿耂耇耈耉耊耎耏耓耚耛耝耞耟耡耣耤耫耭耯耰耲耴耹耺耼耾聀聁聄聅聇聈聉聎聏聐聑聓聕聗聙聛聜聝聟聠聢聣聤聥聦聧聬聭聴聸聺聻肁肂肊肍肎肑肒肔肕肗肙肞肣肦肧肨肬肰肳肵肶肸肹肻胅胇胈胉胊胋胏胐胑胒胓胔胕胘胟胢胣胦胮胵胻胾胿脀脁脃脄脌脕脗脙脜脝脠脡脢脤脥脦脧脨脪脭脮脰脳脴脵脷脺脻脼脽脿腀腁腂腃腄腅腇腉腍腏腒腗腘腛腜腝腞腟腢腣腤腨腪腬腯腲腵腶腷膄膅膆膇膉膋膌膍膎膐膒膓膔膕膖膗膙膞膟膡膢膤膥膧膬膭膮膯膰膱膲膴膵膶膷膸膹膼臄臅臇臈臋臎臐臑臓臔臕臖臗臙臛臝臡臤臦臩臫臮臯臰臱臲臵臶臷臹臽臿舋舏舑舓舕舖舗舘舙舚舝舠舤舥舦舧舩舮舺舼舽舿艀艁艂艃艅艆艈艊艌艍艐艑艒艓艔艕艖艗艛艜艝艞艠艡艢艣艥艧艩艪艬艭艵艻艼芀芁芅芆芇芉芌芐芓芔芕芖芚芛芞芠芢芣芧芲芵芶芺芼芿苀苂苃苅苆苉苐苙苚苝苢苨苩苪苬苭苮苰苲苳苵苶苸苺苼苽苿茀茊茋茐茒茓茖茘茙茟茠茡茢茣茤茥茦茩茪茮茰茻茽茾茿荁荂荄荅荈荋荌荍荎荓荕荖荗荘荙荝荢荰荱荲荴荵荶荹荺荾荿莀莁莂莃莄莇莈莋莌莍莏莐莑莔莕莗莚莝莟莡莣莤莥莦莬莭莮莯莵莻莾莿菃菄菆菈菋菍菎菐菑菒菓菕菗菙菚菛菞菢菣菤菦菧菨菫菬菭菮菳菴菵菶菷菺菻菼菿萀萂萅萈萉萐萒萓萔萕萖萗萙萚萛萞萟萠萡萢萣萩萪萫萭萮萯萰萲萳萴萶萷萹萺萻萾萿葀葁葂葃葄葅葇葈葊葋葌葍葎葏葐葓葔葕葖葘葝葞葟葠葢葥葧葨葪葮葯葰葲葴葻葼葽葾葿蒀蒁蒃蒄蒅蒆蒊蒍蒏蒐蒑蒒蒕蒖蒘蒚蒛蒝蒟蒠蒢蒣蒤蒥蒦蒧蒨蒩蒪蒫蒬蒮蒰蒱蒵蒶蒷蒾蓂蓃蓅蓇蓈蓌蓎蓒蓔蓕蓗蓘蓙蓚蓛蓜蓞蓡蓢蓤蓨蓩蓪蓫蓭蓱蓲蓳蓵蓶蓷蓸蓹蓺蓻蓾蔀蔁蔂蔃蔄蔅蔆蔇蔈蔉蔊蔋蔍蔎蔏蔐蔒蔕蔖蔘蔙蔛蔜蔝蔠蔢蔤蔧蔨蔩蔪蔮蔯蔰蔱蔲蔳蔴蔵蔶蔾蔿蕀蕂蕄蕅蕇蕋蕌蕍蕏蕐蕑蕔蕚蕛蕜蕝蕟蕠蕡蕥蕦蕧蕫蕬蕮蕯蕰蕱蕳蕵蕶蕸蕼蕽蕿薀薁薂薃薉薍薎薐薒薓薕薖薗薙薚薝薞薡薢薣薥薧薫薬薭薱薲薳薴薵薶薸薻薼薽薾薿藀藂藃藄藅藆藇藈藊藋藌藑藒藔藖藗藘藙藚藛藞藟藠藡藢藣藦藧藨藫藬藭藮藯藰藱藲藳藴藵藷藸藼藽藾蘀蘁蘃蘈蘉蘌蘍蘎蘏蘐蘒蘓蘔蘕蘙蘜蘟蘠蘡蘣蘤蘥蘦蘨蘪蘫蘬蘮蘯蘰蘱蘲蘳蘴蘵蘶蘷蘹蘻蘽蘾虁虂虃虄虅虇虈虉虊虋虌虒虓虘虝虠虣虤虥虦虨虩虪虭虰虲虳虴虵虶虷虸蚃蚄蚅蚆蚇蚈蚉蚎蚏蚐蚑蚒蚔蚖蚗蚘蚙蚚蚛蚞蚟蚠蚡蚢蚥蚦蚫蚭蚮蚲蚳蚷蚸蚹蚻蚼蚽蚾蚿蛁蛂蛃蛅蛈蛌蛍蛒蛓蛕蛖蛗蛚蛝蛠蛡蛢蛣蛥蛦蛧蛨蛪蛫蛬蛯蛵蛶蛷蛼蛽蛿蜁蜄蜅蜌蜎蜏蜐蜔蜖蜙蜛蜟蜠蜤蜦蜧蜪蜫蜬蜭蜯蜰蜳蜵蜶蜸蜹蜽蝀蝁蝂蝃蝄蝅蝆蝊蝋蝏蝐蝑蝒蝔蝖蝘蝚蝛蝜蝝蝞蝡蝢蝧蝨蝩蝪蝫蝬蝭蝱蝲蝳蝵蝷蝹蝺蝿螀螁螆螇螉螊螌螎螏螐螑螒螔螕螖螘螙螚螛螜螝螠螡螣螤螥螦螧螩螪螮螰螱螲螴螶螷螸螹螼螾螿蟁蟂蟃蟅蟌蟍蟏蟐蟔蟕蟖蟗蟘蟙蟚蟜蟝蟞蟡蟢蟦蟧蟨蟩蟰蟱蟳蟴蟵蟷蟸蟺蟼蟽蟿蠀蠁蠂蠄蠇蠈蠉蠌蠎蠏蠒蠗蠘蠚蠜蠝蠞蠠蠤蠥蠦蠧蠨蠩蠪蠬蠭蠮蠯蠰蠳蠴蠵蠷蠸蠽蠾蠿衁衂衃衇衈衉衋衎衏衐衑衘衚衜衞衟衦衧衪衭衯衱衳衴衵衶衸衺衻衼袀袃袆袇袉袌袎袏袐袑袓袔袕袗袘袙袚袝袠袡袣袥袦袧袨袩袬袮袯袰袲袳袶袸袹袺袻袽袾裃裄裇裈裋裌裍裐裑裓裖裗裚裛裞裠裡裦裧裪裫裬裭裮裲裵裶裷裺裻裿褀褁褄褅褆褈褉褌褍褎褏褑褔褕褖褗褘褜褝褞褟褢褣褤褦褧褨褩褬褮褯褱褵褷褹褺褼褽褾褿襀襂襃襅襈襊襋襌襍襎襏襐襑襒襓襔襕襗襘襙襚襛襡襢襣襥襧襨襩襫襬襭襮襰襳襵襶襷襸襹襺襼襽襾覀覂覄覅覇覉覊覌覍覎覐覑覒覕覗覙覛覜覝覞覟覠覢覣覤覥覨覫覭覮覰覱観覴覵覶覸覹覻覼覾觃觍觓觔觕觗觘觙觛觝觟觠觡觢觤觧觨觩觪觬觭觮觰觱觲觵觷觹觺觻觼觽觾觿訄訅訆訉訋訍訏訒訔訙訚訜訞訠訡訢訤訦訧訨訩訫訬訮訯訰訲訳訵訷訸訹証訽詀詂詃詄詅詇詉詊詋詌詍詏詑詓詖詗詙詚詜詝詟詤詥詧詨詪詯詴詶詷詸詺詻詽詾誀誁誂誃誈誋誌誎誏誐誔誖誗誙誛誜誝誟誢誧誩誫読誮誯誱誳誴誵誷誸誺誻誽誾諀諁諃諅諆諈諊諌諎諐諔諕諘諙諚諟諠諣諥諨諩諪諬諯諰諲諴諵諹諻諽諿謃謆謈謉謋謌謍謏謑謒謓謕謘謜謞謟謢謣謤謥謧謩謪謭謮謯謰謱謲謴謵謶謷謸謺謻謼謽謿譀譁譂譃譄譅譆譇譈譊譋譌譍譐譑譒譓譕譗譛譝譞譟譠譡譢譣譤譥譧譨譩譪譭譮譱譲譳譵譶譸譹譺譻譼譿讁讂讄讅讆讇讈讉讋讍讏讐讑讔讗讘讙讛讝讟讱讻诇诐诪谉谸谹谺谻谼谽谾谿豀豂豃豄豅豊豋豍豏豑豒豓豖豗豘豙豛豜豞豟豠豣豤豥豦豧豩豭豮豯豰豱豲豴豵豶豷豻豼豽豾豿貀貁貃貄貆貇貈貋貍貎貏貐貑貒貕貖貗貙貚貛貜貟貣貤貥貦貭貮貱貵貹貾賆賉賋賌賍賎賏賐賖賗賘賙賛賝賟賥賩賫賮賯賰賱賲賳賵賶賷賹賿贀贁贂贃贆贇贉贌贎贑贒贕贘贙贚贠赑赒赗赟赥赨赩赪赬赮赯赲赸赹赺赻赼赽赾赿趀趂趃趆趇趈趉趌趍趎趏趐趒趓趖趗趘趚趛趜趝趞趠趡趢趤趥趦趧趩趪趬趭趮趯趰趶趹趻趽跀跁跅跇跈跉跊跍跒跔跕跙跜跠跢跥跦跧跩跭跮跰跱跲跾跿踀踁踂踃踄踆踇踈踋踍踎踑踒踓踕踖踗踙踚踛踜踤踦踧踨踫踭踲踳踶踷踻踼踾踿蹃蹆蹎蹏蹓蹔蹖蹗蹘蹚蹛蹜蹝蹞蹢蹥蹧蹨蹪蹫蹮蹱蹳蹵蹷蹸蹹蹽躀躃躆躈躌躎躖躗躙躛躝躟躠躢躣躤躨躩躮躰躳躴躵躶躷躸躹躻躼躽躾躿軁軂軄軅軆軇軈軉軐軓軕軖軗軘軙軚軜軝軞軠軡転軣軥軦軧軩軪軬軭軮軯軰軱軳軴軵軶軷軽輁輂輄輆輋輌輍輎輏輐輑輓輖輗輘輙輚輠輡輢輣輤輧輫輭輮輰輱輲輴輵輷輹輺輼輽轀轁轃轈轊轋轌轏轐轑轒轓轕轖轗轙轚轛轝轞轠轣轥轪辀辌辎辒辝辠辡辢辤辥辪辬辴辵辷辸辺辻込迀迃迆迉迊迋迌迏迒迖迗迚迠迡迣迧迬迯迱迲迵迶迺迼迾迿逇逌逎逓逘逜逤逥逧逨逩逪逫逬逳逷逽逿遀遃遅遆遈遉遚遟遡遤遦遧遪遫遬遰遱遳遶遹遻遾邆邌邍邎邒邔邖邘邚邜邞邟邤邥邧邨邩邭邲邼邿郀郂郆郈郉郋郌郍郒郔郕郖郘郙郚郠郣郥郩郪郬郮郰郱郲郳郶郷郹郺郻郼鄀鄁鄃鄅鄇鄈鄋鄌鄍鄎鄏鄐鄑鄓鄗鄘鄚鄛鄜鄝鄟鄡鄤鄥鄦鄨鄩鄪鄫鄬鄮鄳鄵鄷鄸鄻鄽鄾鄿酀酁酄酅酑酓酔酘酙酛酜酟酠酦酧酨酫酭酳酺酻酼醀醁醂醆醈醊醎醏醓醔醕醖醗醘醙醝醟醠醡醥醦醧醨醩醰醱醲醳醶醷醹醻醼醽釂釄釆釈釐釖釚釛釞釟釠釡釢釥釦釨釪釫釬釮釯釰釱釲釳釴釶釸釻釼釽釾鈂鈃鈅鈆鈊鈋鈌鈏鈒鈓鈖鈗鈘鈙鈛鈜鈝鈟鈠鈡鈢鈤鈨鈩鈪鈫鈬鈭鈯鈱鈲鈵鈶鈻鈼鉁鉂鉃鉄鉆鉇鉊鉋鉌鉎鉐鉒鉓鉔鉖鉘鉙鉜鉝鉟鉠鉡鉢鉣鉥鉧鉨鉩鉪鉫鉮鉯鉰鉱鉳鉵鉶鉷鉹鉼鉽鉾銁銂銄銆銇銈銉銊銋銌銍銏銐銒銔銕銗銙銛銝銞銟銡銢銤銧銭銯銰銲銴銵銶銸銹銺銽銾銿鋀鋄鋆鋉鋊鋋鋍鋎鋐鋑鋓鋔鋕鋖鋗鋚鋛鋜鋞鋠鋡鋢鋧鋩鋫鋬鋭鋲鋳鋴鋵鋷鋹鋺鋻鋽鋾鋿錀錂錃錅錉錊錋錌錍錎錏錑錓錔錖錗錜錝錞錡錣錤錥錧錩錪錬錭錰錱錴錵錷錹錺錻錽錿鍂鍄鍅鍈鍉鍊鍌鍎鍏鍐鍑鍒鍓鍕鍖鍗鍙鍚鍜鍝鍞鍟鍠鍡鍢鍣鍦鍧鍨鍫鍭鍮鍯鍱鍲鍳鍴鍷鍸鍹鍻鍽鍿鎀鎁鎃鎅鎆鎈鎉鎋鎌鎍鎎鎐鎑鎒鎓鎔鎕鎗鎙鎚鎛鎜鎝鎞鎟鎠鎡鎤鎥鎨鎫鎯鎱鎲鎴鎶鎷鎸鎹鎺鎼鎽鎾鏀鏁鏂鏄鏅鏆鏉鏋鏎鏏鏐鏒鏓鏔鏕鏙鏚鏛鏠鏣鏥鏦鏧鏩鏪鏫鏬鏭鏮鏯鏰鏱鏲鏳鏴鏶鏸鏺鏻鏼鏾鏿鐀鐁鐂鐅鐆鐇鐈鐉鐌鐍鐎鐑鐕鐖鐗鐚鐛鐜鐞鐟鐡鐢鐣鐤鐥鐩鐪鐬鐭鐯鐰鐱鐴鐶鐷鐹鐻鐼鐽鑀鑁鑂鑃鑅鑆鑇鑈鑉鑋鑍鑎鑏鑐鑓鑕鑖鑗鑘鑙鑚鑛鑜鑝鑞鑟鑡鑢鑦鑧鑩鑪鑬鑮鑯鑱鑳鑴鑵鑶鑸鑺鑻钀钂钄钑钖钘铏铓铔铚铦铻锜锠锧锳锽镃镈镋镚镠镮镴镵镸镹镺镻镼镽镾閁閄閅閇閈閊閍閐閕閖閗閚閛閜閝閞閟閠関閦閪閫閮閯閰閳閴閵閷閸閺闀闁闂闄闅闉闎闏闑闒闘闙闛闝闟闣闦闧闬阇阓阘阛阞阠阣阤阥阦阧阨阩阫阬阭阷阸阹阺阾陁陃陊陎陏陑陒陓陖陗陙陚陠陥陦陭陮陯陱陹険陻陾陿隀隁隂隃隄隇隌隑隒隓隖隚隝隞隟隡隢隣隥隦隫隬隭隮隯隲隵隺隿雂雃雈雊雐雑雓雔雗雘雟雡雤雥雦雧雫雬雭雮雰雱雴雵雸雺雼雽雿霂霃霅霊霋霌霐霒霔霕霗霘霙霚霛霝霟霠霡霢霣霤霥霦霨霩霫霬霮霯霱霳霴霵霶霷霺霻霼霿靀靁靃靅靇靊靋靌靍靎靏靐靔靕靗靝靟靤靧靪靫靭靮靯靰靱靲靵靷靹靻靽靾鞁鞂鞃鞄鞆鞇鞈鞉鞊鞌鞎鞐鞕鞖鞗鞙鞚鞛鞜鞝鞞鞡鞢鞤鞥鞧鞨鞩鞪鞬鞮鞰鞱鞳鞵鞷鞸鞹鞺鞻鞼鞾韄韅韇韈韊韍韎韏韐韑韒韔韕韖韗韘韚韛韟韠韡韢韣韤韥韨韮韯韰韱韲韴韷韸韹韺韼韽韾頀頄頉頋頔頕頖頙頚頛頝頞頟頠頢頧頨頩頪頮頯頱頲頳頴頵頶頼頾頿顀顁顂顃顄顅顇顈顉顊顋顐顕顖顜顝顟顠顡顣顤顦顨顩顪顭顮顲颋颎颒颣颩颪颫颬颰颲颴颵颷颸颹颽颾颿飁飂飃飅飉飋飌飍飔飖飗飜飝飣飤飥飦飬飰飳飵飶飷飸飹飻餀餁餄餆餇餈餎餏餔餕餖餗餙餜餝餟餠餢餣餤餥餦餧餩餪餫餬餭餯餰餲餴餵餸餹餺餻餽饀饁饂饄饆饇饍饎饏饓饖饘饙饚饛饝饟饠饤饦饳饸饹饻饾馂馃馉馌馎馚馜馝馞馟馠馡馢馣馤馥馦馧馩馪馫馯馰馲馵馶馷馸馹馻馼馽馾馿駀駂駄駅駆駇駈駉駊駋駌駍駎駓駖駗駚駜駞駠駣駤駥駦駧駨駩駪駫駯駲駳駴駵駶駷駹駺駻駽駾騀騆騇騈騉騋騌騐騑騒験騗騘騚騛騜騝騞騟騡騢騣騥騦騧騨騩騪騬騯騱騲騳騴騵騹騺騻騼騽騿驆驇驈驉驋驎驐驑驒驓驔驖驘驙驜驝驞驠驡驣驧驨驩驫驲骃骉骍骎骔骕骙骦骩骪骫骬骭骮骲骳骴骵骹骻骽骾骿髃髄髆髇髈髉髊髍髎髐髗髚髛髜髝髞髠髢髤髧髨髩髪髬髰髱髲髳髵髶髷髸髺髼髾髿鬀鬂鬄鬇鬉鬊鬋鬌鬎鬐鬑鬔鬕鬖鬗鬙鬛鬜鬝鬞鬠鬡鬤鬦鬨鬪鬫鬬鬭鬴鬵鬶鬷鬸鬹鬺鬽鬾鬿魊魋魌魐魒魓魕魖魗魙魛魜魝魞魟魠魡魢魣魤魥魦魧魨魩魪魫魬魭魮魰魱魲魳魵魶魸魹魺魻魼魽魾魿鮀鮂鮄鮅鮇鮈鮉鮋鮌鮍鮎鮏鮔鮕鮖鮗鮘鮙鮛鮜鮝鮟鮠鮡鮢鮣鮤鮥鮦鮧鮨鮩鮬鮯鮰鮱鮲鮳鮴鮵鮶鮷鮸鮹鮺鮻鮼鮽鮾鮿鯂鯃鯄鯅鯆鯈鯋鯌鯍鯎鯏鯐鯑鯒鯓鯕鯘鯙鯚鯜鯞鯟鯠鯣鯥鯦鯩鯬鯭鯮鯯鯱鯲鯳鯵鯶鯷鯸鯹鯺鯻鯼鰀鰁鰂鰃鰄鰅鰆鰇鰊鰋鰌鰎鰏鰐鰑鰔鰖鰗鰘鰙鰚鰛鰜鰝鰞鰟鰡鰢鰤鰦鰧鰪鰫鰬鰮鰯鰰鰴鰶鰸鰺鰼鰽鰿鱀鱁鱂鱃鱄鱆鱇鱊鱋鱌鱍鱎鱏鱐鱓鱕鱙鱚鱛鱜鱞鱡鱢鱣鱤鱥鱦鱩鱪鱫鱬鱮鱰鱱鱲鱳鱴鱵鱶鱹鱻鱽鱾鲀鲃鲄鲉鲊鲌鲏鲓鲖鲗鲘鲙鲝鲪鲬鲯鲹鲾鲿鳀鳁鳂鳈鳉鳑鳒鳚鳛鳠鳡鳣鳤鳧鳨鳪鳫鳬鳭鳮鳰鳱鳲鳵鳷鳸鳹鳺鳻鳼鳽鳾鳿鴀鴁鴂鴄鴅鴊鴋鴌鴍鴎鴐鴑鴒鴓鴔鴖鴗鴘鴙鴚鴜鴠鴡鴢鴤鴥鴧鴩鴪鴫鴬鴭鴮鴱鴲鴳鴴鴵鴶鴷鴸鴹鴺鴼鴽鴾鵀鵁鵃鵄鵅鵆鵇鵈鵉鵊鵋鵌鵍鵎鵏鵐鵔鵕鵖鵗鵘鵙鵚鵛鵟鵢鵣鵤鵥鵦鵧鵨鵩鵫鵭鵰鵱鵳鵴鵵鵶鵷鵸鵹鵺鵻鵼鵽鵾鵿鶀鶁鶂鶃鶄鶅鶆鶈鶋鶌鶍鶎鶏鶐鶑鶒鶔鶕鶖鶗鶙鶛鶜鶝鶞鶟鶠鶡鶢鶣鶤鶦鶧鶨鶪鶫鶬鶭鶮鶰鶱鶲鶳鶵鶶鶷鶸鶹鶺鶽鶾鷃鷅鷆鷇鷈鷉鷊鷋鷌鷍鷎鷏鷐鷑鷒鷔鷕鷘鷛鷜鷝鷞鷟鷠鷡鷢鷣鷤鷧鷨鷩鷪鷬鷭鷮鷰鷱鷴鷵鷶鷷鷻鷼鷽鷾鷿鸀鸁鸂鸃鸄鸅鸆鸇鸈鸉鸊鸋鸍鸎鸏鸐鸑鸒鸓鸔鸖鸗鸙鸜鸤鸧鸮鸰鸴鸻鸼鹀鹍鹐鹒鹓鹔鹖鹙鹝鹟鹠鹡鹢鹥鹮鹯鹲鹶鹷鹸鹻麀麁麃麄麆麉麌麍麎麏麐麑麔麕麘麙麚麛麜麝麞麠麡麢麣麧麨麪麫麬麭麮麰麱麲麳麶麷麹麺麿黀黁黂黅黆黇黈黊黋黐黓黖黗黚黡黣黤黦黫黬黭黮黰黱黳黵黶黸黺鼀鼁鼂鼃鼄鼅鼆鼊鼌鼏鼑鼖鼘鼚鼛鼜鼝鼞鼟鼡鼣鼤鼥鼦鼧鼨鼩鼪鼫鼭鼮鼰鼱鼲鼳鼵鼶鼸鼺鼼鼿齀齂齃齅齈齉齍齓齖齗齘齚齛齝齞齢齣齤齥齨齩齫齭齮齯齰齱齳齴齵齸齹齺齻齼齽齾龁龂龎龏龑龒龓龖龗龘龝龞龡龢龣龤龥",
+      "visuallyConfirmedMissingGlyphMarker": true,
+      "note": "These are cmap entries with nonempty but identical missing-glyph marker outlines; full conversion preserves the source limitation."
+    },
+    "otherExactDuplicateOutlineGroups": [
+      [
+        {
+          "codepoint": "U+0020",
+          "character": " ",
+          "unicodeName": "SPACE"
+        },
+        {
+          "codepoint": "U+007F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        },
+        {
+          "codepoint": "U+00A0",
+          "character": " ",
+          "unicodeName": "NO-BREAK SPACE"
+        },
+        {
+          "codepoint": "U+3000",
+          "character": "　",
+          "unicodeName": "IDEOGRAPHIC SPACE"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8105",
+          "character": "脅",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8105"
+        },
+        {
+          "codepoint": "U+8107",
+          "character": "脇",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8107"
+        },
+        {
+          "codepoint": "U+810B",
+          "character": "脋",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-810B"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+01F9",
+          "character": "ǹ",
+          "unicodeName": "LATIN SMALL LETTER N WITH GRAVE"
+        },
+        {
+          "codepoint": "U+E7C8",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2E81",
+          "character": "⺁",
+          "unicodeName": "CJK RADICAL CLIFF"
+        },
+        {
+          "codepoint": "U+E815",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2E84",
+          "character": "⺄",
+          "unicodeName": "CJK RADICAL SECOND THREE"
+        },
+        {
+          "codepoint": "U+E819",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2E88",
+          "character": "⺈",
+          "unicodeName": "CJK RADICAL KNIFE ONE"
+        },
+        {
+          "codepoint": "U+E81C",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2E8B",
+          "character": "⺋",
+          "unicodeName": "CJK RADICAL SEAL"
+        },
+        {
+          "codepoint": "U+E81D",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2E8C",
+          "character": "⺌",
+          "unicodeName": "CJK RADICAL SMALL ONE"
+        },
+        {
+          "codepoint": "U+E822",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EA7",
+          "character": "⺧",
+          "unicodeName": "CJK RADICAL COW"
+        },
+        {
+          "codepoint": "U+E830",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EAA",
+          "character": "⺪",
+          "unicodeName": "CJK RADICAL BOLT OF CLOTH"
+        },
+        {
+          "codepoint": "U+E833",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EAE",
+          "character": "⺮",
+          "unicodeName": "CJK RADICAL BAMBOO"
+        },
+        {
+          "codepoint": "U+E836",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EB3",
+          "character": "⺳",
+          "unicodeName": "CJK RADICAL NET THREE"
+        },
+        {
+          "codepoint": "U+E838",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EB6",
+          "character": "⺶",
+          "unicodeName": "CJK RADICAL SHEEP"
+        },
+        {
+          "codepoint": "U+E839",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EB7",
+          "character": "⺷",
+          "unicodeName": "CJK RADICAL RAM"
+        },
+        {
+          "codepoint": "U+E83A",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2EBB",
+          "character": "⺻",
+          "unicodeName": "CJK RADICAL BRUSH TWO"
+        },
+        {
+          "codepoint": "U+E83E",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2ECA",
+          "character": "⻊",
+          "unicodeName": "CJK RADICAL FOOT"
+        },
+        {
+          "codepoint": "U+E848",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF0",
+          "character": "⿰",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT"
+        },
+        {
+          "codepoint": "U+E7E8",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF1",
+          "character": "⿱",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO BELOW"
+        },
+        {
+          "codepoint": "U+E7E9",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF2",
+          "character": "⿲",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO MIDDLE AND RIGHT"
+        },
+        {
+          "codepoint": "U+E7EA",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF3",
+          "character": "⿳",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER ABOVE TO MIDDLE AND BELOW"
+        },
+        {
+          "codepoint": "U+E7EB",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF4",
+          "character": "⿴",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER FULL SURROUND"
+        },
+        {
+          "codepoint": "U+E7EC",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF5",
+          "character": "⿵",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM ABOVE"
+        },
+        {
+          "codepoint": "U+E7ED",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF6",
+          "character": "⿶",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM BELOW"
+        },
+        {
+          "codepoint": "U+E7EE",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF7",
+          "character": "⿷",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LEFT"
+        },
+        {
+          "codepoint": "U+E7EF",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF8",
+          "character": "⿸",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER LEFT"
+        },
+        {
+          "codepoint": "U+E7F0",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FF9",
+          "character": "⿹",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM UPPER RIGHT"
+        },
+        {
+          "codepoint": "U+E7F1",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FFA",
+          "character": "⿺",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER SURROUND FROM LOWER LEFT"
+        },
+        {
+          "codepoint": "U+E7F2",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+2FFB",
+          "character": "⿻",
+          "unicodeName": "IDEOGRAPHIC DESCRIPTION CHARACTER OVERLAID"
+        },
+        {
+          "codepoint": "U+E7F3",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3447",
+          "character": "㑇",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3447"
+        },
+        {
+          "codepoint": "U+E81B",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3473",
+          "character": "㑳",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3473"
+        },
+        {
+          "codepoint": "U+E81A",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+359E",
+          "character": "㖞",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-359E"
+        },
+        {
+          "codepoint": "U+E81F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+360E",
+          "character": "㘎",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-360E"
+        },
+        {
+          "codepoint": "U+E821",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+361A",
+          "character": "㘚",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-361A"
+        },
+        {
+          "codepoint": "U+E820",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3918",
+          "character": "㤘",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3918"
+        },
+        {
+          "codepoint": "U+E825",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+396E",
+          "character": "㥮",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-396E"
+        },
+        {
+          "codepoint": "U+E824",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+39CF",
+          "character": "㧏",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-39CF"
+        },
+        {
+          "codepoint": "U+E827",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+39D0",
+          "character": "㧐",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-39D0"
+        },
+        {
+          "codepoint": "U+E82A",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+39DF",
+          "character": "㧟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-39DF"
+        },
+        {
+          "codepoint": "U+E828",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3A73",
+          "character": "㩳",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3A73"
+        },
+        {
+          "codepoint": "U+E829",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3B4E",
+          "character": "㭎",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3B4E"
+        },
+        {
+          "codepoint": "U+E82D",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3C6E",
+          "character": "㱮",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3C6E"
+        },
+        {
+          "codepoint": "U+E82E",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+3CE0",
+          "character": "㳠",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-3CE0"
+        },
+        {
+          "codepoint": "U+E82F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4056",
+          "character": "䁖",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4056"
+        },
+        {
+          "codepoint": "U+E834",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+415F",
+          "character": "䅟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-415F"
+        },
+        {
+          "codepoint": "U+E835",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4337",
+          "character": "䌷",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4337"
+        },
+        {
+          "codepoint": "U+E837",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+43AC",
+          "character": "䎬",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-43AC"
+        },
+        {
+          "codepoint": "U+E83D",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+43B1",
+          "character": "䎱",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-43B1"
+        },
+        {
+          "codepoint": "U+E83C",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+43DD",
+          "character": "䏝",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-43DD"
+        },
+        {
+          "codepoint": "U+E83F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+44D6",
+          "character": "䓖",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-44D6"
+        },
+        {
+          "codepoint": "U+E840",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+464C",
+          "character": "䙌",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-464C"
+        },
+        {
+          "codepoint": "U+E842",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4661",
+          "character": "䙡",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4661"
+        },
+        {
+          "codepoint": "U+E841",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4723",
+          "character": "䜣",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4723"
+        },
+        {
+          "codepoint": "U+E844",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4729",
+          "character": "䜩",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4729"
+        },
+        {
+          "codepoint": "U+E845",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+477C",
+          "character": "䝼",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-477C"
+        },
+        {
+          "codepoint": "U+E846",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+478D",
+          "character": "䞍",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-478D"
+        },
+        {
+          "codepoint": "U+E847",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4947",
+          "character": "䥇",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4947"
+        },
+        {
+          "codepoint": "U+E849",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+497A",
+          "character": "䥺",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-497A"
+        },
+        {
+          "codepoint": "U+E84A",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+497D",
+          "character": "䥽",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-497D"
+        },
+        {
+          "codepoint": "U+E84B",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4982",
+          "character": "䦂",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4982"
+        },
+        {
+          "codepoint": "U+E84C",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4983",
+          "character": "䦃",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4983"
+        },
+        {
+          "codepoint": "U+E84D",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4985",
+          "character": "䦅",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4985"
+        },
+        {
+          "codepoint": "U+E84E",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4986",
+          "character": "䦆",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4986"
+        },
+        {
+          "codepoint": "U+E84F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+499B",
+          "character": "䦛",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-499B"
+        },
+        {
+          "codepoint": "U+E851",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+499F",
+          "character": "䦟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-499F"
+        },
+        {
+          "codepoint": "U+E850",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+49B6",
+          "character": "䦶",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-49B6"
+        },
+        {
+          "codepoint": "U+E853",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+49B7",
+          "character": "䦷",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-49B7"
+        },
+        {
+          "codepoint": "U+E852",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4C77",
+          "character": "䱷",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4C77"
+        },
+        {
+          "codepoint": "U+E85A",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4C9F",
+          "character": "䲟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4C9F"
+        },
+        {
+          "codepoint": "U+E857",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4CA1",
+          "character": "䲡",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4CA1"
+        },
+        {
+          "codepoint": "U+E859",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4CA2",
+          "character": "䲢",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4CA2"
+        },
+        {
+          "codepoint": "U+E85B",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4CA3",
+          "character": "䲣",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4CA3"
+        },
+        {
+          "codepoint": "U+E856",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4CAD",
+          "character": "䲭",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4CAD"
+        },
+        {
+          "codepoint": "U+E858",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D13",
+          "character": "䴓",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D13"
+        },
+        {
+          "codepoint": "U+E85C",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D14",
+          "character": "䴔",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D14"
+        },
+        {
+          "codepoint": "U+E85D",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D15",
+          "character": "䴕",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D15"
+        },
+        {
+          "codepoint": "U+E85E",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D16",
+          "character": "䴖",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D16"
+        },
+        {
+          "codepoint": "U+E85F",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D17",
+          "character": "䴗",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D17"
+        },
+        {
+          "codepoint": "U+E860",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D18",
+          "character": "䴘",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D18"
+        },
+        {
+          "codepoint": "U+E861",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4D19",
+          "character": "䴙",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4D19"
+        },
+        {
+          "codepoint": "U+E862",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4DAE",
+          "character": "䶮",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4DAE"
+        },
+        {
+          "codepoint": "U+E863",
+          "character": "",
+          "unicodeName": "CONTROL OR UNASSIGNED"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+4E11",
+          "character": "丑",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4E11"
+        },
+        {
+          "codepoint": "U+4E12",
+          "character": "丒",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-4E12"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5183",
+          "character": "冃",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5183"
+        },
+        {
+          "codepoint": "U+5184",
+          "character": "冄",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5184"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5292",
+          "character": "劒",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5292"
+        },
+        {
+          "codepoint": "U+5294",
+          "character": "劔",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5294"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5303",
+          "character": "匃",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5303"
+        },
+        {
+          "codepoint": "U+5304",
+          "character": "匄",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5304"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+53C3",
+          "character": "參",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-53C3"
+        },
+        {
+          "codepoint": "U+53C5",
+          "character": "叅",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-53C5"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+57F6",
+          "character": "埶",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-57F6"
+        },
+        {
+          "codepoint": "U+57F7",
+          "character": "執",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-57F7"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+58F8",
+          "character": "壸",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-58F8"
+        },
+        {
+          "codepoint": "U+58FA",
+          "character": "壺",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-58FA"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+591F",
+          "character": "够",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-591F"
+        },
+        {
+          "codepoint": "U+5920",
+          "character": "夠",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5920"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5977",
+          "character": "奷",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5977"
+        },
+        {
+          "codepoint": "U+5978",
+          "character": "奸",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5978"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+59EB",
+          "character": "姫",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-59EB"
+        },
+        {
+          "codepoint": "U+59EC",
+          "character": "姬",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-59EC"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5C13",
+          "character": "尓",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5C13"
+        },
+        {
+          "codepoint": "U+5C14",
+          "character": "尔",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5C14"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5E26",
+          "character": "带",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5E26"
+        },
+        {
+          "codepoint": "U+5E36",
+          "character": "帶",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5E36"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5E76",
+          "character": "并",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5E76"
+        },
+        {
+          "codepoint": "U+5E77",
+          "character": "幷",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5E77"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+5FB4",
+          "character": "徴",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5FB4"
+        },
+        {
+          "codepoint": "U+5FB5",
+          "character": "徵",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-5FB5"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+617C",
+          "character": "慼",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-617C"
+        },
+        {
+          "codepoint": "U+617D",
+          "character": "慽",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-617D"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+6231",
+          "character": "戱",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6231"
+        },
+        {
+          "codepoint": "U+6232",
+          "character": "戲",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6232"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+659A",
+          "character": "斚",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-659A"
+        },
+        {
+          "codepoint": "U+659D",
+          "character": "斝",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-659D"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+6744",
+          "character": "杄",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6744"
+        },
+        {
+          "codepoint": "U+6746",
+          "character": "杆",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6746"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+6BCB",
+          "character": "毋",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6BCB"
+        },
+        {
+          "codepoint": "U+6BCC",
+          "character": "毌",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-6BCC"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+7A05",
+          "character": "稅",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7A05"
+        },
+        {
+          "codepoint": "U+7A06",
+          "character": "稆",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7A06"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+7A51",
+          "character": "穑",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7A51"
+        },
+        {
+          "codepoint": "U+7A6F",
+          "character": "穯",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7A6F"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+7A9D",
+          "character": "窝",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7A9D"
+        },
+        {
+          "codepoint": "U+7AA9",
+          "character": "窩",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7AA9"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+7DD2",
+          "character": "緒",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7DD2"
+        },
+        {
+          "codepoint": "U+7DD6",
+          "character": "緖",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-7DD6"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8087",
+          "character": "肇",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8087"
+        },
+        {
+          "codepoint": "U+8088",
+          "character": "肈",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8088"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8711",
+          "character": "蜑",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8711"
+        },
+        {
+          "codepoint": "U+8712",
+          "character": "蜒",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8712"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+871D",
+          "character": "蜝",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-871D"
+        },
+        {
+          "codepoint": "U+871E",
+          "character": "蜞",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-871E"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+87C6",
+          "character": "蟆",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-87C6"
+        },
+        {
+          "codepoint": "U+87C7",
+          "character": "蟇",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-87C7"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8971",
+          "character": "襱",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8971"
+        },
+        {
+          "codepoint": "U+8972",
+          "character": "襲",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8972"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8B83",
+          "character": "讃",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8B83"
+        },
+        {
+          "codepoint": "U+8B9A",
+          "character": "讚",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8B9A"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8D13",
+          "character": "贓",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8D13"
+        },
+        {
+          "codepoint": "U+8D1C",
+          "character": "贜",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8D1C"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8D70",
+          "character": "走",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8D70"
+        },
+        {
+          "codepoint": "U+8D71",
+          "character": "赱",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8D71"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8F1F",
+          "character": "輟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8F1F"
+        },
+        {
+          "codepoint": "U+8F8D",
+          "character": "辍",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8F8D"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+8FB2",
+          "character": "農",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8FB2"
+        },
+        {
+          "codepoint": "U+8FB3",
+          "character": "辳",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-8FB3"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9039",
+          "character": "逹",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9039"
+        },
+        {
+          "codepoint": "U+9054",
+          "character": "達",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9054"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+903A",
+          "character": "逺",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-903A"
+        },
+        {
+          "codepoint": "U+9060",
+          "character": "遠",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9060"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+90A6",
+          "character": "邦",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-90A6"
+        },
+        {
+          "codepoint": "U+90AB",
+          "character": "邫",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-90AB"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+913C",
+          "character": "鄼",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-913C"
+        },
+        {
+          "codepoint": "U+9142",
+          "character": "酂",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9142"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9655",
+          "character": "陕",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9655"
+        },
+        {
+          "codepoint": "U+98C0",
+          "character": "飀",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-98C0"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+96A0",
+          "character": "隠",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-96A0"
+        },
+        {
+          "codepoint": "U+96B1",
+          "character": "隱",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-96B1"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9759",
+          "character": "静",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9759"
+        },
+        {
+          "codepoint": "U+975C",
+          "character": "靜",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-975C"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9870",
+          "character": "顰",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9870"
+        },
+        {
+          "codepoint": "U+98A6",
+          "character": "颦",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-98A6"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9D5D",
+          "character": "鵝",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9D5D"
+        },
+        {
+          "codepoint": "U+9D5E",
+          "character": "鵞",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9D5E"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9E8A",
+          "character": "麊",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9E8A"
+        },
+        {
+          "codepoint": "U+9E8B",
+          "character": "麋",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9E8B"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9ED1",
+          "character": "黑",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9ED1"
+        },
+        {
+          "codepoint": "U+9ED2",
+          "character": "黒",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9ED2"
+        }
+      ],
+      [
+        {
+          "codepoint": "U+9F9C",
+          "character": "龜",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9F9C"
+        },
+        {
+          "codepoint": "U+9F9F",
+          "character": "龟",
+          "unicodeName": "CJK UNIFIED IDEOGRAPH-9F9F"
+        }
+      ]
+    ],
+    "rangeCmapCounts": {
+      "basicHanU4E00toU9FFF": 20902,
+      "extensionAU3400toU4DBF": 52,
+      "compatibilityHanUF900toUFAFF": 21,
+      "nonBmp": 0
+    },
+    "styleLimitations": "The font is a fixed digital interpretation. Automated outline checks cannot certify Yu Youren authenticity, correct semantic mapping for every glyph, or cursive quality. No non-BMP cmap exists."
+  },
+  "content": {
+    "path": "site/content.json",
+    "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18"
+  },
+  "books": {
+    "heart": {
+      "uniqueHanCharacters": 116,
+      "hanOccurrences": 260,
+      "cmapMissingCharacters": "",
+      "blankOutlineCharacters": "",
+      "sharedPlaceholderUniqueCharacters": 1,
+      "sharedPlaceholderOccurrences": 1,
+      "sharedPlaceholderCharacters": "埵",
+      "nonPlaceholderNonemptyUniqueHanCharacters": 115,
+      "nonPlaceholderNonemptyPercent": 99.1379,
+      "note": "Distinct nonempty outlines do not prove that every character is correctly encoded or historically authentic."
+    },
+    "diamond": {
+      "uniqueHanCharacters": 426,
+      "hanOccurrences": 5179,
+      "cmapMissingCharacters": "",
+      "blankOutlineCharacters": "",
+      "sharedPlaceholderUniqueCharacters": 1,
+      "sharedPlaceholderOccurrences": 1,
+      "sharedPlaceholderCharacters": "遶",
+      "nonPlaceholderNonemptyUniqueHanCharacters": 425,
+      "nonPlaceholderNonemptyPercent": 99.7653,
+      "note": "Distinct nonempty outlines do not prove that every character is correctly encoded or historically authentic."
+    },
+    "daodejing": {
+      "uniqueHanCharacters": 805,
+      "hanOccurrences": 5297,
+      "cmapMissingCharacters": "",
+      "blankOutlineCharacters": "",
+      "sharedPlaceholderUniqueCharacters": 12,
+      "sharedPlaceholderOccurrences": 17,
+      "sharedPlaceholderCharacters": "儽斲昬梲琭皦緜繟纇讁谿飂",
+      "nonPlaceholderNonemptyUniqueHanCharacters": 793,
+      "nonPlaceholderNonemptyPercent": 98.5093,
+      "note": "Distinct nonempty outlines do not prove that every character is correctly encoded or historically authentic."
+    },
+    "lunyu": {
+      "uniqueHanCharacters": 1353,
+      "hanOccurrences": 15929,
+      "cmapMissingCharacters": "",
+      "blankOutlineCharacters": "",
+      "sharedPlaceholderUniqueCharacters": 41,
+      "sharedPlaceholderOccurrences": 94,
+      "sharedPlaceholderCharacters": "偲僎卽喭奡寑尙屛廋悾愼慾擧杇梲皦硜禘絺綌緅縕耰肸衞袗訒誾踖踧蹜躩輗鞹餲騈騧鬭魋鮀麑",
+      "nonPlaceholderNonemptyUniqueHanCharacters": 1312,
+      "nonPlaceholderNonemptyPercent": 96.9697,
+      "note": "Distinct nonempty outlines do not prove that every character is correctly encoded or historically authentic."
+    }
+  }
+}

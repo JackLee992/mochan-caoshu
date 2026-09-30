@@ -3,10 +3,12 @@
 用于保存草书站点的完整静态文件、迁移包和部署进展，方便换电脑后继续操作。
 
 原站：[ChatGPT Site](https://mochan-caoshu.s419505080.chatgpt.site)。
-当前目标：部署到 **Netlify 免费静态托管**，使用平台提供的网址验证中国大陆网络访问；不购买域名、不绑定银行卡、不开通付费套餐。
+当前使用 **Netlify 免费静态托管**；不购买域名、不绑定银行卡、不开通付费套餐。
 **已成功发布并认领为公开网站：[墨禅 · 草书经卷](https://mochan-caoshu.netlify.app)。账号为 Free，未保存银行卡；无需 Netlify 登录或临时密码即可阅读。**
 
-已验证全部九项资源成功返回，经文、书体、米字格及原作放大正常；用户确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
+当前已收录《心经》、32分《金刚经》、81章《道德经》和20篇《论语》全文，支持章节选择和前后翻页。默认字号48，可调24–200，提供64/96/160三个大字快捷按钮；主要触控控件至少48像素高。于右任字体已换成原包全量 WOFF2，旧精简版已覆盖。字体下载时显示加载提示并隐藏正文，成功后再显示；失败可重新载入。
+
+已验证全部九项资源及章节、大字、字库加载交互。用户此前确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开；该手机反馈来自首次部署。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FJackLee992%2Fmochan-caoshu)
 
@@ -49,31 +51,37 @@ py -3 -m http.server 8080 --bind 127.0.0.1 --directory site
 | --- | --- |
 | `site/` | 可直接部署的九个静态文件：页面、样式、脚本、经文、字体、图片 |
 | `mochan-caoshu-static.zip` | 可直接上传的部署包，入口 `index.html` 位于 ZIP 顶层 |
-| `manifest.json` | 初始快照每个文件的来源、大小、SHA-256 和导出时间 |
+| `manifest.json` | 当前发布文件的大小、SHA-256 与初始导出来源记录 |
 | `export-site.mjs` | 首次导出工具；已有 `site/` 时会停止，通常无需再次运行 |
 | `scripts/verify-snapshot.mjs` | 校验快照完整性、资源引用、脚本语法和经文章节数 |
 | `PROGRESS.md` | 当前进展及换电脑交接记录 |
 | `render.yaml` | Render 一键部署配置，只公开 `site/` |
 | `netlify.toml` | 可选的 Netlify 仓库部署配置，只公开 `site/`；本次手动上传未连接 GitHub |
 | `docs/NETLIFY.md` | 当前 Netlify 网站、更新步骤、免费边界和验收要求 |
-| `docs/evidence/netlify-2026-09-30.json` | 本次无 Cookie HTTP 与页面交互验收记录 |
+| `docs/CLASSICS.md` | 经典固定版本、正文导入方法、全量字体与占位字形处理 |
+| `scripts/build-yu-font.py` | 将用户原字体包全量转换为 WOFF2，验证轮廓和横纵排度量并生成有效字形范围 |
+| `docs/evidence/netlify-classics-full-font-2026-09-30.json` | 当前版本无 Cookie HTTP 与页面交互验收记录 |
+| `docs/evidence/yu-font-classics-2026-09-30.json` | 全量字体转换、轮廓和原字库缺字核查 |
+| `docs/evidence/netlify-2026-09-30.json` | 首次部署的历史验收记录 |
 | `docs/RENDER.md` | Render 账号阻塞记录与备选部署步骤 |
 | `docs/CLOUDBASE.md` | 先前 CloudBase 方案的历史参考 |
 
-使用 Node.js 22 或更新版本校验原始快照：
+使用 Node.js 22 或更新版本校验当前发布快照：
 
 ```sh
 node scripts/verify-snapshot.mjs
 ```
 
-此校验对照初始导出的哈希；主动修改站点文件后，哈希变化是预期的，发布新版本时应同步更新快照记录与部署包。
+此校验对照当前清单，检查资源引用、脚本语法与完整章节。修改站点后同步更新清单和部署包再发布；初始来源哈希单独保存。
 
 ## 部署与来源说明
 
 - `site/` 是静态网站，不需要后端、数据库或 ChatGPT 登录。部署入口为 `index.html`；仓库部署配置的构建命令只运行完整性校验。
 - 资源路径以 `/` 开头，须部署到域名根路径。连接代码仓库时发布目录必须是 `site`；手动上传只使用 `site/` 内的内容或现成 ZIP，不把仓库文档和 Git 元数据公开为站点文件。
 - 字体、图片及经文都在站点内，正常阅读不需要访问 ChatGPT、GitHub 或外部字体服务。延伸阅读链接仍指向第三方网站。
-- 这是原公开站点的发布快照，不包含原项目的 Git 历史；只移除了响应中由原托管平台注入的 Cloudflare 验证脚本，其他站点内容保持不变。
+- 首次迁移移除了原托管平台注入的 Cloudflare 验证脚本；后续功能更新保存在本仓库并发布至 Netlify，原 ChatGPT Sites 网址未同步本次更新。
 - 保留原站字体与图片的来源、权利说明；公开仓库不等于这些素材获得新的开源许可。于右任字体的额外使用、再分发授权尚未核清。
 
 托管规则及大陆访问验证的边界见 [PROGRESS.md](PROGRESS.md)。
+
+原字体虽包含22153个字符映射，其中10794个汉字共用缺字占位形。网页排除这些占位映射，让设备正体补读；全量文件仍完整保留原TTF字符、轮廓和横纵排度量。不能把字符映射数量当作真实草书字形数量。详情见 [经典与字体说明](docs/CLASSICS.md)。

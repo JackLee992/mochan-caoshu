@@ -18,7 +18,7 @@ for (const file of manifest.files) {
   }
   totalBytes += data.length;
   if (/\.(html|css|js|json)$/.test(file.path)) {
-    for (const match of data.toString('utf8').matchAll(/["'(](\/(?!\/)[^"'()\s<>]+\.(?:css|js|json|svg|jpg|png|webp|woff2?|ttf|otf))["')]/g)) {
+    for (const match of data.toString('utf8').matchAll(/["'(](\/(?!\/)[^"'()\s<>]+\.(?:css|js|json|svg|jpg|png|webp|woff2?|ttf|otf))(?:\?[^"'()\s<>]*)?["')]/g)) {
       references.add(match[1].slice(1));
     }
   }
@@ -34,8 +34,23 @@ for (const reference of references) {
 }
 new Script(await readFile(resolve(site, 'app.js'), 'utf8'));
 const content = JSON.parse(await readFile(resolve(site, 'content.json'), 'utf8'));
-if (!content.heart || content.diamond?.sections?.length !== 32) {
-  throw new Error('Expected scripture data was not found.');
+const expectedSections = { diamond: 32, daodejing: 81, lunyu: 20 };
+if (!content.heart || content.heart.characterCount !== 260) throw new Error('Heart Sutra data is missing.');
+for (const [book, count] of Object.entries(expectedSections)) {
+  const volume = content[book];
+  if (volume?.sections?.length !== count) throw new Error(`Expected ${count} sections in ${book}.`);
+  let characters = 0;
+  for (const [index, section] of volume.sections.entries()) {
+    if (section.number !== index + 1 || !section.title || !section.paragraphs?.length || section.paragraphs.some(p => !p.trim())) {
+      throw new Error(`Empty or misordered section: ${book} ${index + 1}`);
+    }
+    const plainText = [...section.paragraphs.join('\n').matchAll(/\p{Script=Han}/gu)].map(match => match[0]).join('');
+    if (section.plainText !== plainText || section.characterCount !== [...plainText].length) {
+      throw new Error(`Text or character-count mismatch: ${book} ${index + 1}`);
+    }
+    characters += section.characterCount;
+  }
+  if (volume.characterCount !== characters) throw new Error(`Incomplete volume count: ${book}`);
 }
 const html = await readFile(resolve(site, 'index.html'), 'utf8');
 if (html.includes('__CF$cv$params') || html.includes('/cdn-cgi/challenge-platform/')) {
@@ -48,5 +63,7 @@ console.log(JSON.stringify({
   localResourceReferences: references.size,
   totalBytes,
   diamondChapters: content.diamond.sections.length,
+  daodejingChapters: content.daodejing.sections.length,
+  lunyuBooks: content.lunyu.sections.length,
   scriptSyntax: 'valid',
 }, null, 2));
