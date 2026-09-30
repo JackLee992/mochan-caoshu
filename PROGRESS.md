@@ -21,7 +21,9 @@
 - 本仓库包含后续部署说明，不依赖此前聊天中的本机绝对路径。
 - 增加 `render.yaml` 和 README 一键部署入口，配置为一个 Static Site，发布目录仅 `site/`，构建阶段执行完整性校验。
 - 新增 `docs/RENDER.md`，保留 CloudBase 文档作为历史备选。
-- 已上传现成 ZIP 到 Netlify Drop，平台生成一个临时项目，当前等待账号认领。
+- 已上传现成 ZIP 到 Netlify Drop，账号持有人完成登录认领，项目更名为 `mochan-caoshu` 并设为 Public，生产网址为 <https://mochan-caoshu.netlify.app>。
+- 无 Cookie 请求全部九个静态文件均返回 HTTP 200；八个资源哈希完全一致，首页仅存在 Netlify 注入的纯 HTML 注释，去除该注释后与本地完全一致。
+- 新网址已实测经文切换、金刚经 32 分、三种字体、字大、米字格、直排/横排及原作放大。
 - 新增 `docs/NETLIFY.md` 和可选的仓库部署配置 `netlify.toml`；本次 Drop 上传未连接 GitHub。
 
 ## 本次接续结果（2026-09-30，Asia/Shanghai）
@@ -39,12 +41,10 @@
 - 未连接 GitHub 应用；当前属于公开仓库导入，不能据表单 `On Commit` 就宣称提交触发自动发布已经验证。
 - **本次结果：发布被 Render 账号银行卡身份验证要求阻塞；尚未上线。**
 
-## 尚未完成
+## 后续边界
 
-- Netlify 账号登录/注册、认领临时项目、设为公开并取得长期生产网址。
-- 公开后首页与全部资源返回成功、经文/章节/字体/米字格/原作放大交互验收。
 - GitHub 自动部署尚未配置；本次 Netlify Drop 属于手动发布，推送仓库不会自动更新站点。
-- 中国大陆手机流量和 Wi-Fi 关闭 VPN 后的实际访问验证；匿名临时项目带密码，不能据此宣称大陆无障碍可达。
+- 用户确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开。这是用户当前两种网络的实测反馈，不代表大陆所有地区、运营商或未来时间均可达。
 
 Render 的阻塞已从“尚未登录 / Mac 锁定”更新为“要求银行卡身份验证”；用户随后明确要求改试 Netlify。
 仓库不保存密码、访问令牌、Cookie、浏览器配置、邮箱验证链接或银行卡资料。
@@ -57,17 +57,26 @@ CloudBase 已不再是当前部署路线；Gitee 不是 Render 部署前置条�
 - 平台实际显示 `Your project is live`，临时项目名 `fanciful-pegasus-b45762`；匿名项目仅有一小时认领窗口，认领前需要临时密码。
 - 点击 **Claim this site** 后到达登录/注册页面。注册页明确涉及接受 Netlify 服务条款，已交由账号持有人完成。
 - Drop 页明确显示 `No credit card required or overages on our free plan.`；没有填入银行卡、接受收费升级或付款。
-- **当前结果：静态文件已上传成功，等待账号认领。临时 Live 预览不等于长期公开发布，暂无已验收的长期 Netlify 地址。**
+- 用户确认已登录并认领；控制台实际进入项目概览，提示项目应用团队默认 Private 可见性。
+- 在 **Make public** 中确认 Public、检查新名称可用，将同一个项目更名为 `mochan-caoshu` 后公开；平台显示 `Your project is public` / `Anyone can visit your production site.`，没有重复建站。
+- **正式生产网址：<https://mochan-caoshu.netlify.app>**；控制台：<https://app.netlify.com/projects/mochan-caoshu/overview>。
+- 当前生产部署 ID：`6abcfde2fabe2f2caa80b714`，控制台显示 `Currently published`、`Production`、`9 new files uploaded`，来自 Netlify Drop。网站快照对应原仓库提交 `3fd54f9c09fb5c204efd329b9bc7b87eebb3a7ef`；后续提交仅新增交接说明和可选配置，没有改动 `site/` 或 ZIP。
+- **Usage & billing** 实际显示 `Free`、`You are on the free plan. You do not need to enter payment information.`、`No credit card info saved`。没有开通付费升级或添加付款方式。
+- 无 Cookie 验收：首页及全部九项静态资源 HTTP 200、类型有效，没有密码框或原托管验证脚本；八个资源 SHA-256 与本地完全一致。首页可能被 Netlify 插入 326 字节托管说明 HTML 注释，去除唯一该注释后与本地完全一致，没有新增可执行脚本。因此不能说九项原始哈希全部相同。
+- 在原文浏览器验证《心经》显示 260 字、《金刚经》章节选项 32 个、可跳转第 32 分和上一品；于右任/龙藏/马善政三种字体类切换正确、字大可调至 54、横排与米字格状态正确。
+- 原作全幅图片成功加载（原图宽 2193 像素），放大控件可到 250%，显示宽度同步为 250%；已恢复默认心经直排页面。
+- 验收证据保存于 [docs/evidence/netlify-2026-09-30.json](docs/evidence/netlify-2026-09-30.json)。
+- 用户在本次会话确认：手机关闭 VPN 后，Wi-Fi 和移动网络「两种都能正常打开」。记录为用户实测反馈，区别于本机自动 HTTP 验收，不扩大为大陆全部网络保障。
+- **当前结果：Netlify 正式公开发布成功，已认领，不受匿名 Drop 一小时认领期限限制；资源与功能验收通过，用户手机无 VPN 的 Wi-Fi 和移动网络访问均正常。**
 
 ## 下一步
 
-1. 在本次 Chrome 认领页面登录/注册 Netlify，由账号持有人完成服务条款确认；优先认领 `fanciful-pegasus-b45762`，避免另建项目。
-2. 只用 Free 方案；如出现卡验证、收费或升级要求，停止记录。若匿名项目已过期，登录后上传现成 ZIP。
-3. 认领后确认项目公开，可选更名为 `mochan-caoshu`；实际网址以控制台显示为准。
-4. 完成经文切换、金刚经 32 分、三种字体、米字格、原作放大和全部本地资源验收，并单独记录用户大陆无 VPN 实测。
-5. 若以后连接 GitHub，另行确认授权范围并验证真实提交触发；目前不能宣称自动发布。
-6. 更新本文件和 README 的实际网址、项目状态、发布证据；不写入 API Key、Cookie 或付款资料。
-7. Render 保持停止状态，不反复提交创建服务或填写付款信息；只有用户以后选择恢复且自行解决账号限制时再复查。
+1. 当前发布和访问验收已完成。未来若访问失败，记录当时实际网络与现象，不据本次两种网络成功宣称大陆全部网络始终可达。
+2. 后续更新使用现有 `mochan-caoshu` 项目；先校验并同步部署包，再手动上传。不要重复认领或另建项目。
+3. 若以后连接 GitHub，另行确认授权范围并验证真实提交触发；目前不能宣称自动发布。
+4. 保持 Free，不绑卡、不升级；额度用完时按平台免费规则暂停或等待下一周期。
+5. 更新实际状态和发布证据，不写入 API Key、Cookie 或付款资料。
+6. Render 保持停止状态，不反复提交创建服务或填写付款信息；只有用户以后选择恢复且自行解决账号限制时再复查。
 
 当前操作见 [docs/NETLIFY.md](docs/NETLIFY.md)；Render 历史方案见 [docs/RENDER.md](docs/RENDER.md)。
 
@@ -89,7 +98,7 @@ Sites 提供自定义域名能力，但仅更换域名不能保证底层网络�
 
 静态文件可通过 Drop 上传；匿名项目需在一小时内认领，认领前受临时密码保护。长期公开访问需登录认领并检查项目可见性。
 Free 当前每月提供 300 个团队共享 credits，生产部署、流量和请求会消耗额度；额度耗尽会暂停项目直到下一周期，不自动收取超额费用。
-本次平台页面明确说 Free 不需要银行卡。网站成功上传，但认领、公开验收和大陆网络实测尚未完成。
+本次实际账号 Free、无银行卡；网站已认领并成功公开，通过无 Cookie 资源和页面交互验收。用户确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开；此结果仅覆盖用户当时的网络。
 
 - [Drop 快速入门](https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/)
 - [Drop 一小时认领窗口说明](https://www.netlify.com/blog/thirteen-years-of-netlify-drop/)

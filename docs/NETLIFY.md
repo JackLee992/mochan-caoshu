@@ -6,21 +6,23 @@
 ## 本次状态（2026-09-30）
 
 已将校验过的 `mochan-caoshu-static.zip` 上传到 Netlify Drop。ZIP 顶层为 `index.html`，九个文件与 `site/` 内容完全一致。
-平台显示 `Your project is live`，临时名称为 `fanciful-pegasus-b45762`。
-匿名上传的项目需要在一小时内 **Claim this site**；认领前受临时密码保护，不能将其当作长期公开网站交付。
-当前停在账号认领流程，需账号持有人登录或注册，注册涉及接受平台服务条款。
+初始临时名称为 `fanciful-pegasus-b45762`。账号持有人已完成登录和认领，已将同一个项目更名为 `mochan-caoshu`、设为 Public。
+正式网站：<https://mochan-caoshu.netlify.app>；控制台：<https://app.netlify.com/projects/mochan-caoshu/overview>。
+生产部署 ID：`6abcfde2fabe2f2caa80b714`；来自 Drop，控制台显示 Currently published 和九个新文件。
+账号账单页面确认 Free、无银行卡资料；不受匿名 Drop 一小时认领期限限制。
 
-## 接续认领同一个项目
+已经通过无 Cookie HTTP 及实际页面交互验收；详细结果见 [验收证据](evidence/netlify-2026-09-30.json)。
+八个资源哈希逐字一致；首页可能插入 Netlify 的 326 字节纯托管说明注释，去掉该注释后与快照一致，没有新增可执行脚本。
+用户已确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开。该用户实测覆盖当时的两种网络，不能扩展为大陆所有地区及运营商保障；本机 HTTP 测试与用户反馈分别记录。
 
-1. 优先使用本次 Chrome 中保留的 Netlify 认领页面，避免重复创建项目。
-2. 已有账号选择 **Log in**；没有账号由账号持有人注册免费账号、接受条款和完成验证。
-3. 登录后认领 `fanciful-pegasus-b45762`。只选 Free；如出现银行卡或收费要求，停止记录，不付款。
-4. 若项目仍为 Private，在项目概览选择 **Make public**，或在 **Project configuration → General → Visitor access → Project visibility** 设为 Public。
-5. 从平台复制实际生产域名，检查未登录访客可以打开首页、经文、字体和图片；匿名临时页的 Live 状态不能替代这项验收。
-6. 可将项目名称改为 `mochan-caoshu`；先确认名称可用，以实际控制台显示的网址为准。
+## 在另一台电脑继续
 
-如果匿名项目已经过期，登录 Free 账号后在 **Projects → Add new project → Deploy manually** 上传现成 ZIP 或 `site/` 文件夹。
-上传范围仅限网站文件，不上传仓库文档、`.git` 或用户其他文件。
+1. 登录原 Netlify 账号，打开已有 `mochan-caoshu` 项目；不要重新匿名上传建立第二个站点。
+2. 检查生产域名、Public 状态及当前生产部署，与本次记录一致。
+3. 根据后续更新步骤上传到已有项目。仅上传现成 ZIP 或 `site/`，不上传仓库文档、`.git` 或用户其他文件。
+4. 更新后再次检查未登录访客可以打开首页、经文、字体和图片。
+
+匿名 Drop 的一小时期限只适用于未认领阶段。本项目已经认领，后续按账号 Free 额度规则运行；不要把历史临时项目名当作当前生产网址。
 
 ## 后续更新
 

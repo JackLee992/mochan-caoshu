@@ -4,9 +4,9 @@
 
 原站：[ChatGPT Site](https://mochan-caoshu.s419505080.chatgpt.site)。
 当前目标：部署到 **Netlify 免费静态托管**，使用平台提供的网址验证中国大陆网络访问；不购买域名、不绑定银行卡、不开通付费套餐。
-**Netlify Drop 已成功上传，但匿名项目只保留一小时、带临时密码；需在 Chrome 认领页面登录后认领，尚未完成长期公开发布。**
+**已成功发布并认领为公开网站：[墨禅 · 草书经卷](https://mochan-caoshu.netlify.app)。账号为 Free，未保存银行卡；无需 Netlify 登录或临时密码即可阅读。**
 
-操作见 [Netlify 部署与认领步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
+已验证全部九项资源成功返回，经文、书体、米字格及原作放大正常；用户确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FJackLee992%2Fmochan-caoshu)
 
@@ -22,11 +22,11 @@
    ```
 
 2. 阅读 [当前进展与交接说明](PROGRESS.md)。这里记录了已完成的工作、用户选择、当前阻塞点及下一步。
-3. 按 [Netlify 部署步骤](docs/NETLIFY.md) 优先认领已上传项目；过期后登录再手动上传现成 ZIP。无需重新抓取原站，也无需新建 Gitee 仓库。[Render 步骤](docs/RENDER.md) 和 [CloudBase 步骤](docs/CLOUDBASE.md) 作为历史参考保留。
+3. 按 [Netlify 部署步骤](docs/NETLIFY.md) 更新现有 `mochan-caoshu` 项目。已经完成认领，不需要重建。无需重新抓取原站，也无需新建 Gitee 仓库。[Render 步骤](docs/RENDER.md) 和 [CloudBase 步骤](docs/CLOUDBASE.md) 作为历史参考保留。
 
 如果使用 Codex，可直接让它：
 
-> 阅读 README.md、PROGRESS.md、netlify.toml 和 docs/NETLIFY.md，继续将网站保存到 Netlify Free。先检查登录态和已有项目，优先认领当前 Drop 项目，避免重复创建或覆盖其他站点。注册条款由账号持有人接受。不购买域名、不绑定银行卡、不接受收费升级。完成后确认未登录访客可以访问，验证首页、本地资源和交互，返回控制台实际分配的网址并更新进展记录；大陆无 VPN 可达性需另行实测。
+> 阅读 README.md、PROGRESS.md、netlify.toml 和 docs/NETLIFY.md，继续维护已发布的 Netlify Free 项目 mochan-caoshu。先检查登录态和现有项目，避免重复创建或覆盖其他站点。此次为手动 Drop 发布，GitHub 自动部署尚未连接。不购买域名、不绑定银行卡、不接受收费升级。更新后确认未登录访客可以访问，验证首页、本地资源和交互并更新进展记录；大陆无 VPN 可达性需另行实测。
 
 ## 本地预览
 
@@ -55,7 +55,8 @@ py -3 -m http.server 8080 --bind 127.0.0.1 --directory site
 | `PROGRESS.md` | 当前进展及换电脑交接记录 |
 | `render.yaml` | Render 一键部署配置，只公开 `site/` |
 | `netlify.toml` | 可选的 Netlify 仓库部署配置，只公开 `site/`；本次手动上传未连接 GitHub |
-| `docs/NETLIFY.md` | 当前 Netlify 认领/部署步骤、免费边界和验收要求 |
+| `docs/NETLIFY.md` | 当前 Netlify 网站、更新步骤、免费边界和验收要求 |
+| `docs/evidence/netlify-2026-09-30.json` | 本次无 Cookie HTTP 与页面交互验收记录 |
 | `docs/RENDER.md` | Render 账号阻塞记录与备选部署步骤 |
 | `docs/CLOUDBASE.md` | 先前 CloudBase 方案的历史参考 |
 
