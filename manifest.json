@@ -1,13 +1,13 @@
 {
   "source": "https://mochan-caoshu.s419505080.chatgpt.site",
   "exportedAt": "2026-09-30T11:18:32.712Z",
-  "note": "Airy reading-room redesign: open book rail, light paper and controls, chapter navigation above the canvas, mobile book tabs and 48px controls. Four complete classics, unpunctuated lines, 24–200px reading, full font and loading/retry behavior preserved.",
+  "note": "Five complete classics including the pinned 1813-character Yongjia Zhengdao Ge. Airy reading room, unpunctuated lines, 24–200px type, full font and loading/retry behavior preserved. Five accessible book choices with two rows on small phones.",
   "files": [
     {
       "path": "index.html",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/",
-      "bytes": 6772,
-      "sha256": "efde304910d97f6b7c15e4e2405d03c4cbd22ece515a85dbd6d271182b632060",
+      "bytes": 7024,
+      "sha256": "016ab50091cce2268cc817d72ea461a10dac8530cc55cf5cf94b8c023825e8cd",
       "sourceSha256": "5a0ac6bc5150b816e4aca65af5d01183ca6b2418632e3438afcae67fce91d39c",
       "removedHostingScripts": 1,
       "locallyEdited": true
@@ -15,8 +15,8 @@
     {
       "path": "style.css",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/style.css",
-      "bytes": 83108,
-      "sha256": "5425b8cd2e4eadd715d863fa9f03ea07131ccbd53697b53ce48b56538ccab457",
+      "bytes": 83369,
+      "sha256": "832679e788128d28dac3cba8d5b5d705d836271cab03ef5619888cbcff3eaeab",
       "sourceSha256": "1495658c8d1e53a87bdd0178e15f8d1e22613402602a8d685481575ff03a5c8e",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -24,8 +24,8 @@
     {
       "path": "app.js",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/app.js",
-      "bytes": 19312,
-      "sha256": "5eae43fca7540602cf425860442c7ed18d2636308fedb66e20e53f0f0f0d7ab3",
+      "bytes": 19540,
+      "sha256": "6fd1664965560321feea955d3762b58e72e890507f3dee2594cfd22291b8d480",
       "sourceSha256": "20598db36c97dfb02572d204755fed2ba9e94aeeed4a41cae7275a96e6710cb4",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -33,8 +33,8 @@
     {
       "path": "content.json",
       "source": "https://mochan-caoshu.s419505080.chatgpt.site/content.json",
-      "bytes": 513055,
-      "sha256": "d578b2eec29bda30e9582a4b8ebd6e1617dd4413374f458acf57a1bbad35eb18",
+      "bytes": 533977,
+      "sha256": "bbde32dca4c1bac05078f518a54fda98dabeac8f65e907c146bb039f4a41d9db",
       "sourceSha256": "f36bb176d447d4ff60a741dd14bc95e2e0e5e796641fb826b76b036d179a6b21",
       "removedHostingScripts": 0,
       "locallyEdited": true
@@ -81,5 +81,5 @@
       "removedHostingScripts": 0
     }
   ],
-  "updatedAt": "2026-09-30T13:48:29.228279+00:00"
+  "updatedAt": "2026-10-01T07:19:21.717421+00:00"
 }

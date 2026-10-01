@@ -6,11 +6,11 @@
 当前使用 **Netlify 免费静态托管**；不购买域名、不绑定银行卡、不开通付费套餐。
 **已成功发布并认领为公开网站：[墨禅 · 草书经卷](https://mochan-caoshu.netlify.app)。账号为 Free，未保存银行卡；无需 Netlify 登录或临时密码即可阅读。**
 
-新版采用疏朗书卷设计：浅纸色、开放书目与朱色细线，章节选择位于正文上方；手机四书一行切换。大字与48像素触控区域保留。设计说明见 [疏朗书卷设计](docs/design/AIRY-READER.md)。
+新版采用疏朗书卷设计：浅纸色、开放书目与朱色细线，章节选择位于正文上方；手机五部经典直接切换，小屏以两行展示。大字与48像素触控区域保留。设计说明见 [疏朗书卷设计](docs/design/AIRY-READER.md)。
 
-当前已收录《心经》、32分《金刚经》、81章《道德经》和20篇《论语》全文，支持章节选择和前后翻页。经典正文不显示标点，按语句与原段落分行，直排、横排和米字格使用同样的分行。默认字号48，可调24–200，提供64/96/160三个大字快捷按钮；主要触控控件至少48像素高。于右任字体已换成原包全量 WOFF2，旧精简版已覆盖。字体下载时显示加载提示并隐藏正文，成功后再显示；失败可重新载入。
+当前已收录《心经》、32分《金刚经》、81章《道德经》、20篇《论语》和永嘉玄觉禅师《证道歌》全文；有篇章的经典支持章节选择和前后翻页。《证道歌》采用固定来源的1813字歌文，按64个来源段落完整阅读。经典正文不显示标点，按语句与原段落分行，直排、横排和米字格使用同样的分行。默认字号48，可调24–200，提供64/96/160三个大字快捷按钮；主要触控控件至少48像素高。于右任字体已换成原包全量 WOFF2，旧精简版已覆盖。字体下载时显示加载提示并隐藏正文，成功后再显示；失败可重新载入。
 
-已验证全部九项资源及章节、大字、字库加载交互。用户此前确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开；该手机反馈来自首次部署。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
+2026-10-01已将证道歌更新发布到原Netlify项目，当前部署为 `6abe0aa28f3e78a84e995656`。全部九项公网资源与本地清单一致，全文、桌面与手机模拟视口检查通过。用户此前确认手机关闭 VPN 后，Wi-Fi 和移动网络均正常打开；该手机反馈来自首次部署。后续更新见 [Netlify 部署步骤](docs/NETLIFY.md)。Render 登录已完成，但此前 Blueprint 和手动 Static Site 均被银行卡身份验证要求阻止，没有已上线的 Render 网址；以下入口仅为历史备选。
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2FJackLee992%2Fmochan-caoshu)
 
@@ -55,7 +55,8 @@ py -3 -m http.server 8080 --bind 127.0.0.1 --directory site
 | `mochan-caoshu-static.zip` | 可直接上传的部署包，入口 `index.html` 位于 ZIP 顶层 |
 | `manifest.json` | 当前发布文件的大小、SHA-256 与初始导出来源记录 |
 | `export-site.mjs` | 首次导出工具；已有 `site/` 时会停止，通常无需再次运行 |
-| `scripts/verify-snapshot.mjs` | 校验快照完整性、资源引用、脚本语法和经文章节数 |
+| `scripts/verify-snapshot.mjs` | 校验快照完整性、资源引用、脚本语法、经文章节数和证道歌全文 |
+| `scripts/import-zhengdaoge.py` | 从固定修订导入证道歌，独立比对原始文本与网页正文 |
 | `PROGRESS.md` | 当前进展及换电脑交接记录 |
 | `render.yaml` | Render 一键部署配置，只公开 `site/` |
 | `netlify.toml` | 可选的 Netlify 仓库部署配置，只公开 `site/`；本次手动上传未连接 GitHub |
@@ -63,7 +64,7 @@ py -3 -m http.server 8080 --bind 127.0.0.1 --directory site
 | `docs/CLASSICS.md` | 经典固定版本、正文导入方法、全量字体与占位字形处理 |
 | `scripts/build-yu-font.py` | 将用户原字体包全量转换为 WOFF2，验证轮廓和横纵排度量并生成有效字形范围 |
 | `docs/design/` | 本次桌面/手机设计稿、设计取舍与视觉核对记录 |
-| `docs/evidence/netlify-airy-design-2026-09-30.json` | 当前疏朗书卷设计的发布、资源和响应式验收记录 |
+| `docs/evidence/netlify-airy-design-2026-09-30.json` | 前一版疏朗书卷设计的发布、资源和响应式验收记录 |
 | `docs/evidence/netlify-unpunctuated-2026-09-30.json` | 上一版无标点分行验收记录 |
 | `docs/evidence/netlify-classics-full-font-2026-09-30.json` | 字体与经典更新的历史验收记录 |
 | `docs/evidence/yu-font-classics-2026-09-30.json` | 全量字体转换、轮廓和原字库缺字核查 |

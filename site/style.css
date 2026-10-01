@@ -176,3 +176,7 @@ footer{margin:0 4.5vw;padding:22px 0;font-size:14px}footer button{font-size:16px
 }
 @media(max-width:360px){.book-card strong{font-size:21px}.size-control{gap:6px}.size-control input{min-width:20px}.size-control .tool-button{padding:10px 6px}.reader-intro h1{font-size:27px}.nav-item{font-size:17px;letter-spacing:0}}
 @media print{.site-header,.section-heading,.library-panel,.reader-toolbar,.reader-caption,.source-note,.original-link,footer{display:none!important}main{padding:0}.sutra-paper{padding:15mm 0;background:white}.scripture-scroll{overflow:visible}.scripture.vertical{height:auto;writing-mode:horizontal-tb;min-width:0;width:auto;line-height:2}.scripture.vertical.grid,.scripture.horizontal.grid{display:block;height:auto;min-width:0;width:100%}.scripture.grid .glyph-line{display:block;break-inside:avoid}.paper-bottom{display:none}}
+
+/* Keep five classics visible and easy to select on small screens. */
+@media (min-width:481px) and (max-width:760px){.book-list{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media (max-width:480px){.book-list{grid-template-columns:repeat(3,minmax(0,1fr))}}

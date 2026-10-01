@@ -52,6 +52,15 @@ for (const [book, count] of Object.entries(expectedSections)) {
   }
   if (volume.characterCount !== characters) throw new Error(`Incomplete volume count: ${book}`);
 }
+const poem = content.zhengdaoge;
+if (!poem || poem.paragraphs?.length !== 64 || poem.characterCount !== 1813) {
+  throw new Error('Complete Yongjia Zhengdao Ge data is missing.');
+}
+const poemPlain = [...poem.paragraphs.join('\n').matchAll(/\p{Script=Han}/gu)].map(match => match[0]).join('');
+if (poemPlain !== poem.plainText || [...poemPlain].length !== 1813 ||
+    createHash('sha256').update(poemPlain).digest('hex') !== '5d1b2ae70c15c7972f260cbf9274e52ad79c3278a4444dcc3fded73771632755') {
+  throw new Error('Yongjia Zhengdao Ge differs from the pinned full source text.');
+}
 const html = await readFile(resolve(site, 'index.html'), 'utf8');
 if (html.includes('__CF$cv$params') || html.includes('/cdn-cgi/challenge-platform/')) {
   throw new Error('Hosting-injected verification script still present.');
@@ -65,5 +74,7 @@ console.log(JSON.stringify({
   diamondChapters: content.diamond.sections.length,
   daodejingChapters: content.daodejing.sections.length,
   lunyuBooks: content.lunyu.sections.length,
+  zhengdaogeCharacters: poem.characterCount,
+  zhengdaogeParagraphs: poem.paragraphs.length,
   scriptSyntax: 'valid',
 }, null, 2));

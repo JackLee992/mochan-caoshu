@@ -13,7 +13,8 @@ const bookInfo = {
  heart: {shortTitle:'心經',label:'般若 · 心經',unit:'章',sourceURL:'https://zh.wikisource.org/zh-hant/般若波羅蜜多心經_(玄奘譯)'},
  diamond: {shortTitle:'金剛經',unit:'分',sourceURL:'https://zh.wikisource.org/zh-hant/金剛般若波羅蜜經_(鳩摩羅什)'},
  daodejing: {shortTitle:'道德經',unit:'章',sourceURL:'https://zh.wikisource.org/zh-hant/道德經_(王弼本)'},
- lunyu: {shortTitle:'論語',unit:'篇',sourceURL:'https://zh.wikisource.org/zh-hant/論語'}
+ lunyu: {shortTitle:'論語',unit:'篇',sourceURL:'https://zh.wikisource.org/zh-hant/論語'},
+ zhengdaoge: {shortTitle:'證道歌',label:'禪門 · 證道歌',unit:'章',sourceURL:'https://zh.wikisource.org/wiki/永嘉證道歌'}
 };
 const chapterPositions = {};
 let content, book='heart', chapter=0, font='yu', grid=false, vertical=true, activeView='reader';
@@ -127,7 +128,7 @@ function renderSutra() {
  $('#sutra-title').textContent=divided?section.title:volume.title;
  $('#sutra-attribution').textContent=volume.attribution;
  $('#book-label').textContent=divided?`${info.shortTitle} · 第 ${chapter+1} / ${sections.length} ${info.unit}`:info.label;
- $('.title-seal').textContent=book==='daodejing'?'道德':book==='lunyu'?'論語':'般若';
+ $('.title-seal').textContent=book==='daodejing'?'道德':book==='lunyu'?'論語':book==='zhengdaoge'?'證道':'般若';
  $('#text-count').textContent=section.characterCount+' 字';
  $('#prev-chapter').disabled=chapter===0;
  $('#next-chapter').disabled=!divided || chapter===sections.length-1;
@@ -188,5 +189,5 @@ $$('dialog .dialog-close').forEach(el=>el.addEventListener('click',()=>el.closes
 $$('dialog').forEach(d=>d.addEventListener('click',e=>{if(e.target!==d)return;const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)d.close()}));
 renderGallery();renderFonts();renderSources();
 fetch('/content.json').then(r=>{if(!r.ok)throw new Error('經文載入失敗');return r.json()}).then(data=>{content=data;
- $('#classics-sources').innerHTML=['daodejing','lunyu'].filter(id=>content[id]).map(id=>{const v=content[id];return `<h3>${escapeHTML(bookInfo[id].shortTitle)}</h3><p>${escapeHTML(v.edition)} · 全文 ${v.sections.length} ${bookInfo[id].unit}。${v.editionNote?escapeHTML(v.editionNote):''}</p><p>${external(v.sourceURL||bookInfo[id].sourceURL,'查看原文與版本')}</p>`}).join('');
+ $('#classics-sources').innerHTML=['daodejing','lunyu','zhengdaoge'].filter(id=>content[id]).map(id=>{const v=content[id];return `<h3>${escapeHTML(bookInfo[id].shortTitle)}</h3><p>${escapeHTML(v.edition)} · ${v.sections?'全文 '+v.sections.length+' '+bookInfo[id].unit:'全文 '+v.characterCount+' 字'}。${v.editionNote?escapeHTML(v.editionNote):''}</p><p>${external(v.sourceURL||bookInfo[id].sourceURL,'查看原文與版本')}</p>`}).join('');
  renderSutra()}).catch(()=>{$$('.book-card').filter(el=>el.dataset.book!=='heart').forEach(el=>el.disabled=true);$('#reader-note').textContent='經卷暫時無法載入，請重新整理。';$('#font-loading-mark').hidden=true;$('#font-loading-message').textContent='經典暫時未能載入，請點「重新載入」。';$('#font-retry').hidden=false;$('.scripture-scroll').setAttribute('aria-busy','false');});
